@@ -1,0 +1,27 @@
+{
+  "name": "sync",
+  "version": "1.0.0",
+  "description": "Multi-agent AI operations platform with agentic RAG and ReAct workflows",
+  "private": true,
+  "scripts": {
+    "install:all": "npm install --prefix frontend && npm install --prefix backend",
+    "dev:frontend": "npm run dev --prefix frontend",
+    "dev:backend": "npm run dev --prefix backend",
+    "dev": "echo 'Start frontend and backend in separate terminals:' && echo '  Terminal 1: npm run dev:backend' && echo '  Terminal 2: npm run dev:frontend'",
+    "build:frontend": "npm run build --prefix frontend",
+    "build:backend": "npm run build --prefix backend",
+    "build": "npm run build:backend && npm run build:frontend",
+    "clean": "rm -rf frontend/node_modules frontend/dist backend/node_modules backend/dist"
+  },
+  "keywords": [
+    "ai",
+    "agents",
+    "rag",
+    "react",
+    "nvidia",
+    "gemini",
+    "agentic"
+  ],
+  "author": "",
+  "license": "MIT"
+}

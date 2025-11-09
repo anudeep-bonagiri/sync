@@ -1,0 +1,830 @@
+[
+  {
+    "video_id": "dQw4w9WgXcQ",
+    "channel": "TechReview Channel",
+    "title": "Verizon Outage Crisis: What You Need to Know",
+    "sentiment": "negative",
+    "relevance_score": 0.92,
+    "comment_samples": [
+      "I've been without service for 6 hours now. This is unacceptable!",
+      "Verizon needs to compensate customers for this massive outage.",
+      "Switching to T-Mobile after this disaster."
+    ],
+    "keywords_detected": ["outage", "Verizon", "network", "service disruption", "customer service"],
+    "engagement_stats": {
+      "likes": 1240,
+      "views": 45600,
+      "comments": 389
+    }
+  },
+  {
+    "video_id": "x7Yy9Y8zZ9A",
+    "channel": "Network Engineering Explained",
+    "title": "5G Network Outages: Root Cause Analysis",
+    "sentiment": "neutral",
+    "relevance_score": 0.88,
+    "comment_samples": [
+      "Great technical breakdown of what causes these outages.",
+      "This explains why my T-Mobile service went down last week.",
+      "More carriers need to implement redundancy like this."
+    ],
+    "keywords_detected": ["5G", "network outage", "infrastructure", "redundancy", "root cause"],
+    "engagement_stats": {
+      "likes": 890,
+      "views": 23400,
+      "comments": 156
+    }
+  },
+  {
+    "video_id": "mK8pQ9zL3N4",
+    "channel": "Consumer Reports Tech",
+    "title": "AT&T Service Issues in Atlanta - Customer Complaints",
+    "sentiment": "negative",
+    "relevance_score": 0.85,
+    "comment_samples": [
+      "Same issue here! Texts are delayed by hours.",
+      "AT&T customer service is useless. They won't acknowledge the problem.",
+      "I'm losing business because of this. Very frustrated."
+    ],
+    "keywords_detected": ["AT&T", "service issues", "Atlanta", "customer complaints", "text messages"],
+    "engagement_stats": {
+      "likes": 567,
+      "views": 18900,
+      "comments": 234
+    }
+  },
+  {
+    "video_id": "pL9qR7vW2K5",
+    "channel": "Tech News Daily",
+    "title": "T-Mobile Major Outage Affects Los Angeles",
+    "sentiment": "negative",
+    "relevance_score": 0.95,
+    "comment_samples": [
+      "Couldn't call 911 during the outage. This is dangerous!",
+      "T-Mobile needs to be held accountable for emergency service failures.",
+      "Complete blackout for 8 hours. How is this acceptable?"
+    ],
+    "keywords_detected": ["T-Mobile", "outage", "Los Angeles", "emergency services", "911", "blackout"],
+    "engagement_stats": {
+      "likes": 2340,
+      "views": 89200,
+      "comments": 678
+    }
+  },
+  {
+    "video_id": "rT9K8vN4M2L",
+    "channel": "Wireless Wisdom",
+    "title": "How to Check if Your Carrier Has an Outage",
+    "sentiment": "positive",
+    "relevance_score": 0.72,
+    "comment_samples": [
+      "Very helpful tutorial! Thanks for the tips.",
+      "This saved me a trip to the store. It was an outage, not my phone.",
+      "Great resource for troubleshooting network issues."
+    ],
+    "keywords_detected": ["outage detection", "troubleshooting", "carrier", "network status"],
+    "engagement_stats": {
+      "likes": 1230,
+      "views": 34500,
+      "comments": 189
+    }
+  },
+  {
+    "video_id": "sV5wX8yN9P3",
+    "channel": "Network Infrastructure Insights",
+    "title": "Fiber Cut Causes Verizon Outage in San Francisco",
+    "sentiment": "neutral",
+    "relevance_score": 0.91,
+    "comment_samples": [
+      "Fiber cuts are becoming too common. Need better protection.",
+      "This explains the business impact - we lost thousands in revenue.",
+      "Infrastructure resilience needs improvement across all carriers."
+    ],
+    "keywords_detected": ["fiber cut", "Verizon", "San Francisco", "infrastructure", "business impact"],
+    "engagement_stats": {
+      "likes": 1456,
+      "views": 52100,
+      "comments": 312
+    }
+  },
+  {
+    "video_id": "tU6vW7xY0Q4",
+    "channel": "Customer Experience Reviews",
+    "title": "Verizon vs AT&T vs T-Mobile: Outage Comparison",
+    "sentiment": "neutral",
+    "relevance_score": 0.87,
+    "comment_samples": [
+      "T-Mobile has had more outages this year but better customer service.",
+      "Verizon is usually most reliable but when they go down, it's bad.",
+      "All carriers have issues. Just pick based on coverage in your area."
+    ],
+    "keywords_detected": ["carrier comparison", "outage frequency", "reliability", "customer service"],
+    "engagement_stats": {
+      "likes": 2100,
+      "views": 67800,
+      "comments": 445
+    }
+  },
+  {
+    "video_id": "uV7xY8zA1B5",
+    "channel": "Tech Troubleshooting",
+    "title": "AT&T VoLTE Call Failures - How to Fix",
+    "sentiment": "negative",
+    "relevance_score": 0.83,
+    "comment_samples": [
+      "Having this exact problem. Calls keep dropping.",
+      "AT&T support said it's my phone, but clearly it's not.",
+      "VoLTE has been broken for weeks. Very frustrating."
+    ],
+    "keywords_detected": ["VoLTE", "AT&T", "call failures", "dropped calls", "troubleshooting"],
+    "engagement_stats": {
+      "likes": 789,
+      "views": 27800,
+      "comments": 267
+    }
+  },
+  {
+    "video_id": "vW8xY9zB2C6",
+    "channel": "Emergency Preparedness",
+    "title": "Why Cell Network Outages Are Dangerous",
+    "sentiment": "negative",
+    "relevance_score": 0.89,
+    "comment_samples": [
+      "People couldn't call for help during the T-Mobile outage. Scary!",
+      "This is a public safety issue. Carriers need backup systems.",
+      "We need better emergency communication infrastructure."
+    ],
+    "keywords_detected": ["emergency services", "public safety", "outage impact", "911", "critical infrastructure"],
+    "engagement_stats": {
+      "likes": 1678,
+      "views": 45600,
+      "comments": 389
+    }
+  },
+  {
+    "video_id": "wX9yY0zC3D7",
+    "channel": "Network Security Today",
+    "title": "T-Mobile 5G Network Degradation in Miami",
+    "sentiment": "negative",
+    "relevance_score": 0.86,
+    "comment_samples": [
+      "5G speeds have been terrible lately. Barely faster than LTE.",
+      "Network congestion is real. T-Mobile oversold their capacity.",
+      "Switching back to Verizon after this experience."
+    ],
+    "keywords_detected": ["5G", "T-Mobile", "Miami", "network degradation", "congestion", "speeds"],
+    "engagement_stats": {
+      "likes": 934,
+      "views": 31200,
+      "comments": 201
+    }
+  },
+  {
+    "video_id": "xY0zY1zD4E8",
+    "channel": "Business Impact Analysis",
+    "title": "How Network Outages Cost Businesses Money",
+    "sentiment": "negative",
+    "relevance_score": 0.84,
+    "comment_samples": [
+      "Lost $15K in sales during the Verizon outage. No compensation.",
+      "Business continuity planning needs to account for carrier outages.",
+      "Carriers should offer SLA guarantees for business customers."
+    ],
+    "keywords_detected": ["business impact", "revenue loss", "outage cost", "business continuity", "SLA"],
+    "engagement_stats": {
+      "likes": 1123,
+      "views": 38900,
+      "comments": 278
+    }
+  },
+  {
+    "video_id": "yZ1zA2zE5F9",
+    "channel": "Tech Solutions",
+    "title": "Verizon Critical Outage in Dallas - What Happened",
+    "sentiment": "negative",
+    "relevance_score": 0.93,
+    "comment_samples": [
+      "6 hour blackout with no communication from Verizon.",
+      "Critical infrastructure failure should never happen. Unacceptable!",
+      "Verizon needs to invest more in redundancy and backup systems."
+    ],
+    "keywords_detected": ["Verizon", "Dallas", "critical outage", "infrastructure failure", "blackout"],
+    "engagement_stats": {
+      "likes": 1890,
+      "views": 72300,
+      "comments": 512
+    }
+  },
+  {
+    "video_id": "aB2c3d4e5F6",
+    "channel": "Wireless Industry News",
+    "title": "Las Vegas T-Mobile Outage Disrupts Casino Operations",
+    "sentiment": "negative",
+    "relevance_score": 0.88,
+    "comment_samples": [
+      "Casinos couldn't process payments during the outage. Major problem!",
+      "Tourist industry took a huge hit. This is unacceptable.",
+      "Hospitality sector needs reliable networks. T-Mobile failed us."
+    ],
+    "keywords_detected": ["T-Mobile", "Las Vegas", "casino", "hospitality", "5G", "outage"],
+    "engagement_stats": {
+      "likes": 1567,
+      "views": 61200,
+      "comments": 423
+    }
+  },
+  {
+    "video_id": "bC3d4e5f6G7",
+    "channel": "Network Monitoring Pro",
+    "title": "Washington DC Verizon Service Degradation Affects Government",
+    "sentiment": "negative",
+    "relevance_score": 0.90,
+    "comment_samples": [
+      "Government buildings couldn't communicate. This is a security risk!",
+      "Verizon needs to prioritize government infrastructure.",
+      "VoLTE issues are affecting official communications."
+    ],
+    "keywords_detected": ["Verizon", "Washington DC", "government", "VoLTE", "service degradation"],
+    "engagement_stats": {
+      "likes": 2134,
+      "views": 78900,
+      "comments": 567
+    }
+  },
+  {
+    "video_id": "cD4e5f6g7H8",
+    "channel": "Telecom Analysis",
+    "title": "AT&T Austin Outage During SXSW Festival",
+    "sentiment": "negative",
+    "relevance_score": 0.94,
+    "comment_samples": [
+      "Tech companies at SXSW couldn't operate. Lost business opportunities.",
+      "Complete service blackout during the biggest tech event of the year.",
+      "AT&T failed when we needed them most. Switching carriers."
+    ],
+    "keywords_detected": ["AT&T", "Austin", "SXSW", "tech companies", "service blackout"],
+    "engagement_stats": {
+      "likes": 2890,
+      "views": 112300,
+      "comments": 789
+    }
+  },
+  {
+    "video_id": "dE5f6g7h8I9",
+    "channel": "Network Performance Reviews",
+    "title": "San Diego AT&T Critical Infrastructure Failure",
+    "sentiment": "negative",
+    "relevance_score": 0.96,
+    "comment_samples": [
+      "Navy base communications affected. This is a national security issue.",
+      "911 services completely down. People couldn't call for help.",
+      "Multiple fiber cuts detected. AT&T needs better infrastructure protection."
+    ],
+    "keywords_detected": ["AT&T", "San Diego", "Navy base", "911", "fiber cuts", "critical infrastructure"],
+    "engagement_stats": {
+      "likes": 3456,
+      "views": 145600,
+      "comments": 912
+    }
+  },
+  {
+    "video_id": "eF6g7h8i9J0",
+    "channel": "Wireless Tech Explained",
+    "title": "Denver Verizon Airport Outage Strands Travelers",
+    "sentiment": "negative",
+    "relevance_score": 0.87,
+    "comment_samples": [
+      "Travelers couldn't connect at the airport. Missed flights because of this.",
+      "Business travelers lost productivity. Verizon needs to fix this.",
+      "Fiber backhaul failure shows poor infrastructure planning."
+    ],
+    "keywords_detected": ["Verizon", "Denver", "airport", "fiber backhaul", "travelers"],
+    "engagement_stats": {
+      "likes": 1789,
+      "views": 67800,
+      "comments": 445
+    }
+  },
+  {
+    "video_id": "fG7h8i9j0K1",
+    "channel": "Customer Service Reviews",
+    "title": "Pittsburgh AT&T VoLTE Failures Impact Industrial Sector",
+    "sentiment": "negative",
+    "relevance_score": 0.85,
+    "comment_samples": [
+      "Industrial companies can't communicate. Production is being affected.",
+      "Enterprise customers paying premium prices but getting poor service.",
+      "VoLTE has been broken for weeks. When will AT&T fix this?"
+    ],
+    "keywords_detected": ["AT&T", "Pittsburgh", "VoLTE", "industrial", "enterprise"],
+    "engagement_stats": {
+      "likes": 1234,
+      "views": 45600,
+      "comments": 334
+    }
+  },
+  {
+    "video_id": "gH8i9j0k1L2",
+    "channel": "Network Reliability Reports",
+    "title": "Sacramento Verizon Network Issues Affect State Government",
+    "sentiment": "negative",
+    "relevance_score": 0.89,
+    "comment_samples": [
+      "State government buildings can't function properly without network.",
+      "Data speeds reduced significantly. Government operations slowed.",
+      "SMS delivery problems are affecting official communications."
+    ],
+    "keywords_detected": ["Verizon", "Sacramento", "state government", "data speeds", "SMS"],
+    "engagement_stats": {
+      "likes": 1678,
+      "views": 58900,
+      "comments": 401
+    }
+  },
+  {
+    "video_id": "hI9j0k1l2M3",
+    "channel": "Tech Troubleshooting Guide",
+    "title": "Columbus AT&T Campus Area Coverage Problems",
+    "sentiment": "negative",
+    "relevance_score": 0.82,
+    "comment_samples": [
+      "University students can't connect on campus. This is frustrating.",
+      "5G connectivity issues are affecting online classes.",
+      "AT&T needs to improve coverage in educational areas."
+    ],
+    "keywords_detected": ["AT&T", "Columbus", "campus", "5G", "coverage"],
+    "engagement_stats": {
+      "likes": 945,
+      "views": 32300,
+      "comments": 267
+    }
+  },
+  {
+    "video_id": "iJ0k1l2m3N4",
+    "channel": "Network Infrastructure News",
+    "title": "Albuquerque T-Mobile Major Service Disruption",
+    "sentiment": "negative",
+    "relevance_score": 0.91,
+    "comment_samples": [
+      "Native American reservations completely cut off. This is unacceptable.",
+      "Rural connectivity lost. Emergency services can't reach people.",
+      "Complete network failure shows poor planning for rural areas."
+    ],
+    "keywords_detected": ["T-Mobile", "Albuquerque", "reservations", "rural connectivity", "emergency services"],
+    "engagement_stats": {
+      "likes": 2123,
+      "views": 81200,
+      "comments": 578
+    }
+  },
+  {
+    "video_id": "jK1l2m3n4O5",
+    "channel": "Wireless Network Analysis",
+    "title": "Jacksonville AT&T Port Operations Affected by Outage",
+    "sentiment": "negative",
+    "relevance_score": 0.86,
+    "comment_samples": [
+      "Port operations can't function without network. Logistics companies affected.",
+      "Maritime communications down. Ships can't coordinate properly.",
+      "Data connectivity issues are costing businesses money."
+    ],
+    "keywords_detected": ["AT&T", "Jacksonville", "port operations", "maritime", "data connectivity"],
+    "engagement_stats": {
+      "likes": 1456,
+      "views": 53400,
+      "comments": 378
+    }
+  },
+  {
+    "video_id": "kL2m3n4o5P6",
+    "channel": "Network Outage Reports",
+    "title": "Milwaukee Verizon Critical Outage Halts Manufacturing",
+    "sentiment": "negative",
+    "relevance_score": 0.93,
+    "comment_samples": [
+      "Manufacturing facilities can't operate. Production lines stopped.",
+      "Complete service blackout is costing millions in lost productivity.",
+      "911 services degraded. This is a public safety crisis."
+    ],
+    "keywords_detected": ["Verizon", "Milwaukee", "manufacturing", "service blackout", "911"],
+    "engagement_stats": {
+      "likes": 2345,
+      "views": 92300,
+      "comments": 645
+    }
+  },
+  {
+    "video_id": "lM3n4o5p6Q7",
+    "channel": "Network Performance Testing",
+    "title": "Tucson AT&T University Campus Data Speed Issues",
+    "sentiment": "negative",
+    "relevance_score": 0.81,
+    "comment_samples": [
+      "University campus can't handle network load. Data speeds terrible.",
+      "Students can't access online resources. Affecting education.",
+      "AT&T needs to upgrade infrastructure for educational institutions."
+    ],
+    "keywords_detected": ["AT&T", "Tucson", "university", "data speed", "campus"],
+    "engagement_stats": {
+      "likes": 1123,
+      "views": 41200,
+      "comments": 289
+    }
+  },
+  {
+    "video_id": "mN4o5p6q7R8",
+    "channel": "Network Security Updates",
+    "title": "Buffalo T-Mobile Border Area Coverage Problems",
+    "sentiment": "negative",
+    "relevance_score": 0.84,
+    "comment_samples": [
+      "Border area coverage is terrible. Can't maintain connections.",
+      "International roaming affected. Travelers can't communicate.",
+      "Voice call quality is poor near border crossings."
+    ],
+    "keywords_detected": ["T-Mobile", "Buffalo", "border", "international roaming", "voice quality"],
+    "engagement_stats": {
+      "likes": 1345,
+      "views": 48900,
+      "comments": 345
+    }
+  },
+  {
+    "video_id": "nO5p6q7r8S9",
+    "channel": "Telecom Industry Watch",
+    "title": "New Orleans Verizon Critical Infrastructure Failure During Mardi Gras",
+    "sentiment": "negative",
+    "relevance_score": 0.97,
+    "comment_samples": [
+      "Mardi Gras festival area completely cut off. Tourism industry devastated.",
+      "Public safety communications down during major event. Dangerous situation.",
+      "No backup systems available. This is a complete failure of planning."
+    ],
+    "keywords_detected": ["Verizon", "New Orleans", "Mardi Gras", "tourism", "public safety", "critical infrastructure"],
+    "engagement_stats": {
+      "likes": 4123,
+      "views": 178900,
+      "comments": 1234
+    }
+  },
+  {
+    "video_id": "oP6q7r8s9T0",
+    "channel": "Network Troubleshooting",
+    "title": "Oakland AT&T Port Area Service Problems",
+    "sentiment": "negative",
+    "relevance_score": 0.87,
+    "comment_samples": [
+      "Port area affected. Shipping operations disrupted.",
+      "Data connectivity issues are causing delays in logistics.",
+      "VoLTE call failures are affecting port communications."
+    ],
+    "keywords_detected": ["AT&T", "Oakland", "port", "data connectivity", "VoLTE"],
+    "engagement_stats": {
+      "likes": 1678,
+      "views": 61200,
+      "comments": 445
+    }
+  },
+  {
+    "video_id": "pQ7r8s9t0U1",
+    "channel": "Wireless Network Reviews",
+    "title": "Indianapolis T-Mobile Race Track Area 5G Issues",
+    "sentiment": "negative",
+    "relevance_score": 0.83,
+    "comment_samples": [
+      "Race track area can't maintain 5G connection. Coverage gaps everywhere.",
+      "5G performance issues during events. Network can't handle load.",
+      "T-Mobile needs to improve coverage for event venues."
+    ],
+    "keywords_detected": ["T-Mobile", "Indianapolis", "race track", "5G", "coverage"],
+    "engagement_stats": {
+      "likes": 1234,
+      "views": 45600,
+      "comments": 312
+    }
+  },
+  {
+    "video_id": "qR8s9t0u1V2",
+    "channel": "Network Infrastructure Analysis",
+    "title": "San Antonio Verizon Military Base Outage",
+    "sentiment": "negative",
+    "relevance_score": 0.95,
+    "comment_samples": [
+      "Military bases affected. This is a national security concern.",
+      "Emergency services impacted. Military operations disrupted.",
+      "Fiber infrastructure damaged. Needs immediate repair."
+    ],
+    "keywords_detected": ["Verizon", "San Antonio", "military bases", "emergency services", "fiber infrastructure"],
+    "engagement_stats": {
+      "likes": 2890,
+      "views": 112300,
+      "comments": 789
+    }
+  },
+  {
+    "video_id": "rS9t0u1v2W3",
+    "channel": "Network Performance Monitoring",
+    "title": "Raleigh T-Mobile Research Triangle Network Issues",
+    "sentiment": "negative",
+    "relevance_score": 0.88,
+    "comment_samples": [
+      "Research Triangle tech companies can't function. Lost productivity.",
+      "Data speeds reduced significantly. Research operations affected.",
+      "T-Mobile needs to prioritize tech hubs like Research Triangle."
+    ],
+    "keywords_detected": ["T-Mobile", "Raleigh", "Research Triangle", "tech companies", "data speeds"],
+    "engagement_stats": {
+      "likes": 1789,
+      "views": 67800,
+      "comments": 467
+    }
+  },
+  {
+    "video_id": "sT0u1v2w3X4",
+    "channel": "Telecom News Network",
+    "title": "San Jose Verizon Silicon Valley Enterprise Client Issues",
+    "sentiment": "negative",
+    "relevance_score": 0.89,
+    "comment_samples": [
+      "Silicon Valley companies paying premium but getting poor service.",
+      "Enterprise clients reporting issues. This affects tech industry.",
+      "5G connectivity problems in the heart of tech innovation."
+    ],
+    "keywords_detected": ["Verizon", "San Jose", "Silicon Valley", "enterprise", "5G"],
+    "engagement_stats": {
+      "likes": 2123,
+      "views": 81200,
+      "comments": 578
+    }
+  },
+  {
+    "video_id": "tU1v2w3x4Y5",
+    "channel": "Network Reliability Reports",
+    "title": "Cincinnati AT&T Corporate Headquarters Outage",
+    "sentiment": "negative",
+    "relevance_score": 0.92,
+    "comment_samples": [
+      "Corporate headquarters can't operate. Business operations halted.",
+      "Complete network blackout affecting major businesses.",
+      "911 services down. This is a critical failure."
+    ],
+    "keywords_detected": ["AT&T", "Cincinnati", "corporate headquarters", "network blackout", "911"],
+    "engagement_stats": {
+      "likes": 2456,
+      "views": 94500,
+      "comments": 678
+    }
+  },
+  {
+    "video_id": "uV2w3x4y5Z6",
+    "channel": "Wireless Network Analysis",
+    "title": "El Paso T-Mobile Border Crossing Connectivity Issues",
+    "sentiment": "negative",
+    "relevance_score": 0.86,
+    "comment_samples": [
+      "Border crossing area can't maintain connections. Travelers affected.",
+      "International connectivity issues are causing problems.",
+      "Data roaming problems near border. Can't use services."
+    ],
+    "keywords_detected": ["T-Mobile", "El Paso", "border crossing", "international connectivity", "data roaming"],
+    "engagement_stats": {
+      "likes": 1345,
+      "views": 51200,
+      "comments": 367
+    }
+  },
+  {
+    "video_id": "vW3x4y5z6A7",
+    "channel": "Network Infrastructure Updates",
+    "title": "Memphis AT&T Logistics Company Network Problems",
+    "sentiment": "negative",
+    "relevance_score": 0.87,
+    "comment_samples": [
+      "Logistics companies can't coordinate shipments. Business impacted.",
+      "Data connectivity issues are causing delays.",
+      "SMS delivery delays are affecting logistics operations."
+    ],
+    "keywords_detected": ["AT&T", "Memphis", "logistics", "data connectivity", "SMS"],
+    "engagement_stats": {
+      "likes": 1567,
+      "views": 58900,
+      "comments": 423
+    }
+  },
+  {
+    "video_id": "wX4y5z6a7B8",
+    "channel": "Network Performance Reviews",
+    "title": "Long Beach T-Mobile Port Operations Coverage Gaps",
+    "sentiment": "negative",
+    "relevance_score": 0.84,
+    "comment_samples": [
+      "Port operations affected by coverage gaps. Shipping delayed.",
+      "Coverage gaps reported in port area. Can't maintain connections.",
+      "T-Mobile needs to improve port area coverage."
+    ],
+    "keywords_detected": ["T-Mobile", "Long Beach", "port operations", "coverage gaps"],
+    "engagement_stats": {
+      "likes": 1234,
+      "views": 46700,
+      "comments": 334
+    }
+  },
+  {
+    "video_id": "xY5z6a7b8C9",
+    "channel": "Network Outage Analysis",
+    "title": "Cleveland Verizon Healthcare Facility Critical Outage",
+    "sentiment": "negative",
+    "relevance_score": 0.98,
+    "comment_samples": [
+      "Healthcare facilities can't communicate. This is life-threatening.",
+      "Emergency medical services impacted. Patients at risk.",
+      "Multiple hospitals unable to communicate. 911 services completely down."
+    ],
+    "keywords_detected": ["Verizon", "Cleveland", "healthcare facilities", "emergency medical services", "hospitals", "911"],
+    "engagement_stats": {
+      "likes": 4567,
+      "views": 189200,
+      "comments": 1456
+    }
+  },
+  {
+    "video_id": "yZ6a7b8c9D0",
+    "channel": "Network Monitoring Pro",
+    "title": "Oklahoma City AT&T Weather Monitoring Data Speed Issues",
+    "sentiment": "negative",
+    "relevance_score": 0.82,
+    "comment_samples": [
+      "Weather monitoring affected. Can't get accurate data.",
+      "Data speed issues are affecting weather services.",
+      "AT&T needs to prioritize weather monitoring infrastructure."
+    ],
+    "keywords_detected": ["AT&T", "Oklahoma City", "weather monitoring", "data speed"],
+    "engagement_stats": {
+      "likes": 1123,
+      "views": 42300,
+      "comments": 289
+    }
+  },
+  {
+    "video_id": "zA7b8c9d0E1",
+    "channel": "Network Infrastructure News",
+    "title": "Rochester T-Mobile Medical Center Service Failure",
+    "sentiment": "negative",
+    "relevance_score": 0.94,
+    "comment_samples": [
+      "Medical centers affected. Patient communications impacted.",
+      "Service failure is affecting healthcare operations.",
+      "Fiber cut detected. Needs immediate repair for medical facilities."
+    ],
+    "keywords_detected": ["T-Mobile", "Rochester", "medical centers", "service failure", "patient communications", "fiber cut"],
+    "engagement_stats": {
+      "likes": 2345,
+      "views": 92300,
+      "comments": 645
+    }
+  },
+  {
+    "video_id": "aB8c9d0e1F2",
+    "channel": "Wireless Network Reviews",
+    "title": "Understanding Network Redundancy: Why Outages Happen",
+    "sentiment": "neutral",
+    "relevance_score": 0.79,
+    "comment_samples": [
+      "Great explanation of why network redundancy is important.",
+      "This helps understand why carriers need backup systems.",
+      "Educational video about network infrastructure."
+    ],
+    "keywords_detected": ["network redundancy", "outages", "backup systems", "infrastructure"],
+    "engagement_stats": {
+      "likes": 1890,
+      "views": 72300,
+      "comments": 512
+    }
+  },
+  {
+    "video_id": "bC9d0e1f2G3",
+    "channel": "Tech Industry Analysis",
+    "title": "The True Cost of Network Outages for Businesses",
+    "sentiment": "negative",
+    "relevance_score": 0.91,
+    "comment_samples": [
+      "Businesses lose millions during outages. Carriers need to compensate.",
+      "SLA guarantees should be mandatory for business customers.",
+      "Network outages are costing the economy billions."
+    ],
+    "keywords_detected": ["business cost", "outages", "SLA", "compensation", "economy"],
+    "engagement_stats": {
+      "likes": 2789,
+      "views": 107800,
+      "comments": 756
+    }
+  },
+  {
+    "video_id": "cD0e1f2g3H4",
+    "channel": "Network Security Today",
+    "title": "Public Safety Impact of Cellular Network Outages",
+    "sentiment": "negative",
+    "relevance_score": 0.93,
+    "comment_samples": [
+      "911 services must never fail. This is a public safety crisis.",
+      "Carriers need to prioritize emergency services infrastructure.",
+      "Network outages put lives at risk. Unacceptable."
+    ],
+    "keywords_detected": ["public safety", "911", "emergency services", "outages", "infrastructure"],
+    "engagement_stats": {
+      "likes": 3456,
+      "views": 134500,
+      "comments": 923
+    }
+  },
+  {
+    "video_id": "dE1f2g3h4I5",
+    "channel": "Wireless Industry Watch",
+    "title": "Fiber Infrastructure Vulnerabilities: Lessons from Recent Outages",
+    "sentiment": "neutral",
+    "relevance_score": 0.88,
+    "comment_samples": [
+      "Fiber cuts are a major vulnerability. Need better protection.",
+      "Infrastructure resilience needs improvement across all carriers.",
+      "This explains why redundant fiber paths are critical."
+    ],
+    "keywords_detected": ["fiber infrastructure", "vulnerabilities", "fiber cuts", "resilience", "redundancy"],
+    "engagement_stats": {
+      "likes": 2123,
+      "views": 81200,
+      "comments": 578
+    }
+  },
+  {
+    "video_id": "eF2g3h4i5J6",
+    "channel": "Network Performance Testing",
+    "title": "5G Network Congestion: Causes and Solutions",
+    "sentiment": "neutral",
+    "relevance_score": 0.85,
+    "comment_samples": [
+      "Network congestion is a real problem with 5G deployment.",
+      "Carriers need to invest more in capacity for 5G networks.",
+      "Great explanation of 5G congestion issues."
+    ],
+    "keywords_detected": ["5G", "network congestion", "capacity", "deployment"],
+    "engagement_stats": {
+      "likes": 1678,
+      "views": 64500,
+      "comments": 445
+    }
+  },
+  {
+    "video_id": "fG3h4i5j6K7",
+    "channel": "Customer Service Reviews",
+    "title": "Carrier Customer Service During Outages: What to Expect",
+    "sentiment": "negative",
+    "relevance_score": 0.83,
+    "comment_samples": [
+      "Customer service is terrible during outages. Can't get answers.",
+      "Carriers need to be more transparent about outage status.",
+      "Customer service wait times are unacceptable during crises."
+    ],
+    "keywords_detected": ["customer service", "outages", "transparency", "wait times"],
+    "engagement_stats": {
+      "likes": 1456,
+      "views": 56700,
+      "comments": 401
+    }
+  },
+  {
+    "video_id": "gH4i5j6k7L8",
+    "channel": "Network Infrastructure Insights",
+    "title": "Rural Network Coverage: The Digital Divide",
+    "sentiment": "negative",
+    "relevance_score": 0.86,
+    "comment_samples": [
+      "Rural areas get worse service during outages. Unfair.",
+      "Digital divide is real. Rural communities suffer more.",
+      "Carriers need to invest in rural infrastructure."
+    ],
+    "keywords_detected": ["rural coverage", "digital divide", "rural infrastructure", "outages"],
+    "engagement_stats": {
+      "likes": 1890,
+      "views": 72300,
+      "comments": 512
+    }
+  },
+  {
+    "video_id": "hI5j6k7l8M9",
+    "channel": "Telecom Regulatory News",
+    "title": "Should Carriers Be Required to Compensate Customers for Outages?",
+    "sentiment": "negative",
+    "relevance_score": 0.90,
+    "comment_samples": [
+      "Carriers should definitely compensate customers for outages.",
+      "Regulatory requirements are needed for outage compensation.",
+      "Customers lose money during outages. Compensation is fair."
+    ],
+    "keywords_detected": ["compensation", "outages", "regulatory", "customers"],
+    "engagement_stats": {
+      "likes": 2789,
+      "views": 107800,
+      "comments": 756
+    }
+  }
+]

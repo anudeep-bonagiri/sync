@@ -1,0 +1,153 @@
+Device Telemetry and Performance Metrics
+
+REGIONAL INFRASTRUCTURE HEALTH
+
+US-East-1 (N. Virginia):
+- Total Servers: 1,247
+- Average CPU Utilization: 42%
+- Average Memory Usage: 61%
+- Network Throughput: 45 Gbps average, 120 Gbps peak
+- Disk I/O: Healthy, 15% utilization
+- Recent Incidents: Minor latency spike on 2024-01-15 (resolved in 8 min)
+- SLA Uptime: 99.97% (last 30 days)
+
+US-West-2 (Oregon):
+- Total Servers: 892
+- Average CPU Utilization: 38%
+- Average Memory Usage: 55%
+- Network Throughput: 32 Gbps average, 85 Gbps peak
+- Disk I/O: Healthy, 12% utilization
+- Recent Incidents: None
+- SLA Uptime: 99.99% (last 30 days)
+
+EU-West-2 (London):
+- Total Servers: 634
+- Average CPU Utilization: 51%
+- Average Memory Usage: 68%
+- Network Throughput: 28 Gbps average, 72 Gbps peak
+- Disk I/O: Elevated, 24% utilization
+- Recent Incidents: DNS routing issue on 2024-01-18 (resolved in 12 min)
+- SLA Uptime: 99.95% (last 30 days)
+
+AP-Northeast-1 (Tokyo):
+- Total Servers: 445
+- Average CPU Utilization: 47%
+- Average Memory Usage: 64%
+- Network Throughput: 22 Gbps average, 58 Gbps peak
+- Disk I/O: Healthy, 18% utilization
+- Recent Incidents: Packet loss on secondary link on 2024-01-20 (monitoring)
+- SLA Uptime: 99.93% (last 30 days)
+
+AP-Southeast-1 (Singapore):
+- Total Servers: 312
+- Average CPU Utilization: 44%
+- Average Memory Usage: 59%
+- Network Throughput: 18 Gbps average, 45 Gbps peak
+- Disk I/O: Healthy, 14% utilization
+- Recent Incidents: None
+- SLA Uptime: 99.98% (last 30 days)
+
+SA-East-1 (São Paulo):
+- Total Servers: 201
+- Average CPU Utilization: 39%
+- Average Memory Usage: 53%
+- Network Throughput: 12 Gbps average, 31 Gbps peak
+- Disk I/O: Healthy, 11% utilization
+- Recent Incidents: None
+- SLA Uptime: 99.96% (last 30 days)
+
+DEVICE-LEVEL METRICS
+
+Load Balancer Health:
+- Active Connections: 45,230 average
+- Requests per Second: 125,000 average, 340,000 peak
+- Healthy Backend Targets: 98.7%
+- Unhealthy Targets: 1.3% (within acceptable range)
+- SSL Handshake Time: 23ms average
+
+Database Performance:
+- Query Response Time: 8.2ms average
+- Connection Pool Usage: 67% average
+- Slow Queries: 0.3% of total
+- Replication Lag: <100ms across all regions
+- Cache Hit Rate: 94.2%
+
+CDN Performance:
+- Cache Hit Ratio: 89.3%
+- Origin Request Rate: 10.7%
+- Edge Response Time: 45ms average
+- Bandwidth Savings: 78%
+
+Storage Systems:
+- Total Capacity: 2.4 PB
+- Used Capacity: 1.6 PB (67%)
+- IOPS: 450,000 average, 1.2M peak
+- Read Latency: 1.2ms average
+- Write Latency: 2.1ms average
+
+NETWORK QUALITY METRICS
+
+Inter-Region Connectivity:
+- US-East to EU-West: 78ms latency, 0.01% packet loss
+- US-West to AP-Northeast: 112ms latency, 0.02% packet loss
+- EU-West to AP-Southeast: 168ms latency, 0.03% packet loss
+- Cross-region bandwidth utilization: 42% average
+
+Last-Mile Performance:
+- ISP Tier-1 Providers: 45ms average latency
+- ISP Tier-2 Providers: 67ms average latency
+- Mobile Networks: 89ms average latency
+- Satellite Links: 580ms average latency
+
+ANOMALY DETECTION ALERTS
+
+Current Active Alerts:
+- AP-Northeast-1: Minor packet loss on secondary link (0.1%)
+- EU-West-2: Memory usage trending upward (68% -> 72% over 24h)
+- US-East-1: Disk I/O spike on 3 nodes (investigating)
+
+Resolved Alerts (Last 7 Days):
+- US-East-1: Brief CPU spike to 91% during deployment (auto-scaled)
+- EU-West-2: DNS query latency elevated for 8 minutes
+- AP-Southeast-1: Cache invalidation storm (resolved, increased TTL)
+
+CAPACITY PLANNING
+
+Current Capacity Headroom:
+- Compute: 58% available
+- Memory: 39% available
+- Storage: 33% available
+- Network: 72% available
+
+Projected Growth (Next 6 Months):
+- Traffic increase: 35% expected
+- Storage growth: 28% expected
+- Recommended expansion: US-East +200 servers, EU-West +120 servers
+
+SECURITY TELEMETRY
+
+DDoS Protection:
+- Attacks Mitigated (Last 30 Days): 23
+- Peak Attack Size: 47 Gbps
+- Average Mitigation Time: 1.8 seconds
+- False Positives: 0.02%
+
+Intrusion Detection:
+- Suspicious Patterns Detected: 156
+- Blocked IPs: 1,247
+- Zero-Day Signatures Updated: 12 times
+- Incident Escalations: 2 (both false alarms)
+
+RELIABILITY METRICS
+
+Error Rates by Service:
+- API Gateway: 0.04% error rate
+- Authentication Service: 0.01% error rate
+- Database Service: 0.02% error rate
+- File Upload Service: 0.12% error rate (higher, investigating)
+
+Recovery Metrics:
+- Mean Time to Detect (MTTD): 2.1 minutes
+- Mean Time to Acknowledge (MTTA): 0.8 minutes
+- Mean Time to Resolve (MTTR): 15.4 minutes
+- Automated Recovery Success: 79%

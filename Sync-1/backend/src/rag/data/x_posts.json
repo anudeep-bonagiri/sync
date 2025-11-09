@@ -1,0 +1,733 @@
+[
+  {
+    "post_id": "1823456789012345678",
+    "username": "@NetworkWatcher",
+    "text": "🚨 Major Verizon outage reported in Boston. Multiple users reporting complete service blackout. #VerizonOutage #Boston",
+    "sentiment_score": -0.85,
+    "network_issue_tags": ["outage", "service blackout", "Verizon"],
+    "geo": {
+      "city": "Boston",
+      "state": "MA"
+    },
+    "timestamp": "2024-01-15T14:35:22Z",
+    "engagement": 1240
+  },
+  {
+    "post_id": "1823456789012345679",
+    "username": "@TechUser123",
+    "text": "Can't make calls or use data. AT&T service completely down in Atlanta. Customer service says they're 'aware of an issue' but no ETA. This is ridiculous!",
+    "sentiment_score": -0.92,
+    "network_issue_tags": ["outage", "AT&T", "voice calls", "data"],
+    "geo": {
+      "city": "Atlanta",
+      "state": "GA"
+    },
+    "timestamp": "2024-01-16T09:22:15Z",
+    "engagement": 892
+  },
+  {
+    "post_id": "1823456789012345680",
+    "username": "@EmergencyServices",
+    "text": "⚠️ T-Mobile outage in Los Angeles is affecting 911 services. Please use landlines or alternate carriers for emergencies. #PublicSafety",
+    "sentiment_score": -0.95,
+    "network_issue_tags": ["outage", "T-Mobile", "911", "emergency services"],
+    "geo": {
+      "city": "Los Angeles",
+      "state": "CA"
+    },
+    "timestamp": "2024-01-17T16:52:08Z",
+    "engagement": 3456
+  },
+  {
+    "post_id": "1823456789012345681",
+    "username": "@ChicagoResident",
+    "text": "Verizon coverage in Chicago suburbs has been spotty all day. Dropped calls and slow data. Anyone else experiencing this?",
+    "sentiment_score": -0.65,
+    "network_issue_tags": ["coverage", "dropped calls", "slow data", "Verizon"],
+    "geo": {
+      "city": "Chicago",
+      "state": "IL"
+    },
+    "timestamp": "2024-01-18T11:28:44Z",
+    "engagement": 567
+  },
+  {
+    "post_id": "1823456789012345682",
+    "username": "@PhoenixTech",
+    "text": "AT&T VoLTE calls keep failing in Phoenix. LTE to 5G handoff is broken. Been like this for days. When will this be fixed?",
+    "sentiment_score": -0.78,
+    "network_issue_tags": ["VoLTE", "call failures", "LTE", "5G", "handoff", "AT&T"],
+    "geo": {
+      "city": "Phoenix",
+      "state": "AZ"
+    },
+    "timestamp": "2024-01-19T08:01:33Z",
+    "engagement": 723
+  },
+  {
+    "post_id": "1823456789012345683",
+    "username": "@NYC_Living",
+    "text": "Minor T-Mobile connectivity issues in NYC today. Nothing major, just slow speeds in some areas. #TMobile",
+    "sentiment_score": -0.35,
+    "network_issue_tags": ["connectivity", "slow speeds", "T-Mobile"],
+    "geo": {
+      "city": "New York",
+      "state": "NY"
+    },
+    "timestamp": "2024-01-20T13:25:17Z",
+    "engagement": 234
+  },
+  {
+    "post_id": "1823456789012345684",
+    "username": "@SFBusinessOwner",
+    "text": "Verizon fiber backhaul failure in San Francisco is killing our business. Can't process payments, can't communicate with customers. Lost thousands in revenue today. @VerizonSupport",
+    "sentiment_score": -0.88,
+    "network_issue_tags": ["fiber backhaul", "outage", "business impact", "Verizon"],
+    "geo": {
+      "city": "San Francisco",
+      "state": "CA"
+    },
+    "timestamp": "2024-01-21T19:48:52Z",
+    "engagement": 1456
+  },
+  {
+    "post_id": "1823456789012345685",
+    "username": "@DetroitUser",
+    "text": "AT&T SMS messages are delayed by hours in Detroit. Texts sent this morning just arrived now. What's going on?",
+    "sentiment_score": -0.72,
+    "network_issue_tags": ["SMS", "delayed messages", "AT&T"],
+    "geo": {
+      "city": "Detroit",
+      "state": "MI"
+    },
+    "timestamp": "2024-01-22T08:34:26Z",
+    "engagement": 489
+  },
+  {
+    "post_id": "1823456789012345686",
+    "username": "@MiamiBeach",
+    "text": "T-Mobile 5G speeds in Miami are terrible. Barely getting 10 Mbps when I used to get 200+. Network congestion is real. #TMobile5G",
+    "sentiment_score": -0.68,
+    "network_issue_tags": ["5G", "slow speeds", "network congestion", "T-Mobile"],
+    "geo": {
+      "city": "Miami",
+      "state": "FL"
+    },
+    "timestamp": "2024-01-23T15:16:41Z",
+    "engagement": 678
+  },
+  {
+    "post_id": "1823456789012345687",
+    "username": "@DallasNews",
+    "text": "🚨 BREAKING: Verizon experiencing critical infrastructure failure in Dallas. Complete network blackout affecting thousands. 911 services impacted. No ETA on restoration.",
+    "sentiment_score": -0.94,
+    "network_issue_tags": ["critical outage", "infrastructure failure", "network blackout", "911", "Verizon"],
+    "geo": {
+      "city": "Dallas",
+      "state": "TX"
+    },
+    "timestamp": "2024-01-24T10:42:19Z",
+    "engagement": 5234
+  },
+  {
+    "post_id": "1823456789012345688",
+    "username": "@SeattleTech",
+    "text": "AT&T FirstNet public safety network impacted by outage in Seattle. This affects first responders. Serious concern for public safety. @ATTNews",
+    "sentiment_score": -0.91,
+    "network_issue_tags": ["FirstNet", "public safety", "outage", "first responders", "AT&T"],
+    "geo": {
+      "city": "Seattle",
+      "state": "WA"
+    },
+    "timestamp": "2024-01-25T12:55:37Z",
+    "engagement": 2890
+  },
+  {
+    "post_id": "1823456789012345689",
+    "username": "@MinneapolisUser",
+    "text": "T-Mobile tower maintenance causing service disruptions in Minneapolis. Expected to last a few hours. Minor inconvenience.",
+    "sentiment_score": -0.45,
+    "network_issue_tags": ["tower maintenance", "service disruption", "T-Mobile"],
+    "geo": {
+      "city": "Minneapolis",
+      "state": "MN"
+    },
+    "timestamp": "2024-01-26T06:22:14Z",
+    "engagement": 312
+  },
+  {
+    "post_id": "1823456789012345690",
+    "username": "@OrlandoVisitor",
+    "text": "Verizon network congestion around Disney World is terrible. Can barely load a web page. High traffic area needs more capacity!",
+    "sentiment_score": -0.58,
+    "network_issue_tags": ["network congestion", "capacity", "Verizon"],
+    "geo": {
+      "city": "Orlando",
+      "state": "FL"
+    },
+    "timestamp": "2024-01-27T17:31:28Z",
+    "engagement": 445
+  },
+  {
+    "post_id": "1823456789012345691",
+    "username": "@PhillyResident",
+    "text": "Minor Verizon connectivity issues in Philadelphia today. Nothing major, just some intermittent service. Should be resolved soon.",
+    "sentiment_score": -0.32,
+    "network_issue_tags": ["connectivity", "intermittent service", "Verizon"],
+    "geo": {
+      "city": "Philadelphia",
+      "state": "PA"
+    },
+    "timestamp": "2024-01-28T09:44:56Z",
+    "engagement": 189
+  },
+  {
+    "post_id": "1823456789012345692",
+    "username": "@NetworkEngineer",
+    "text": "Analysis: Recent carrier outages show pattern of infrastructure vulnerabilities. Single points of failure in fiber backhaul are causing cascading failures. Carriers need better redundancy. #NetworkReliability",
+    "sentiment_score": -0.55,
+    "network_issue_tags": ["infrastructure", "fiber backhaul", "redundancy", "network reliability"],
+    "timestamp": "2024-01-28T14:12:03Z",
+    "engagement": 1234
+  },
+  {
+    "post_id": "1823456789012345693",
+    "username": "@ConsumerAdvocate",
+    "text": "When carriers have outages, customers lose money, businesses fail, and lives are at risk. We need federal regulations requiring minimum uptime SLAs and mandatory compensation for outages. #TelecomReform",
+    "sentiment_score": -0.75,
+    "network_issue_tags": ["outage", "SLA", "regulation", "compensation"],
+    "timestamp": "2024-01-28T16:28:47Z",
+    "engagement": 2345
+  },
+  {
+    "post_id": "1823456789012345694",
+    "username": "@LasVegasLocal",
+    "text": "T-Mobile outage in Las Vegas is affecting casino operations. Can't process payments or connect to WiFi. This is costing businesses millions. #TMobileOutage",
+    "sentiment_score": -0.89,
+    "network_issue_tags": ["outage", "T-Mobile", "casino", "WiFi", "business impact"],
+    "geo": {
+      "city": "Las Vegas",
+      "state": "NV"
+    },
+    "timestamp": "2024-02-01T08:22:15Z",
+    "engagement": 1789
+  },
+  {
+    "post_id": "1823456789012345695",
+    "username": "@DCResident",
+    "text": "Verizon service degradation in Washington DC affecting government buildings. VoLTE calls failing. This is a security concern. @VerizonSupport",
+    "sentiment_score": -0.87,
+    "network_issue_tags": ["service degradation", "Verizon", "government", "VoLTE", "security"],
+    "geo": {
+      "city": "Washington",
+      "state": "DC"
+    },
+    "timestamp": "2024-02-02T14:45:33Z",
+    "engagement": 2134
+  },
+  {
+    "post_id": "1823456789012345696",
+    "username": "@SXSWAttendee",
+    "text": "AT&T completely down in Austin during SXSW! Tech companies can't operate. This is a disaster for the biggest tech event of the year. #SXSW #ATTOutage",
+    "sentiment_score": -0.93,
+    "network_issue_tags": ["outage", "AT&T", "Austin", "SXSW", "tech companies"],
+    "geo": {
+      "city": "Austin",
+      "state": "TX"
+    },
+    "timestamp": "2024-02-06T10:18:42Z",
+    "engagement": 3456
+  },
+  {
+    "post_id": "1823456789012345697",
+    "username": "@SanDiegoNews",
+    "text": "🚨 CRITICAL: AT&T infrastructure failure in San Diego. Navy base communications affected. 911 services down. Multiple fiber cuts detected. #PublicSafety",
+    "sentiment_score": -0.96,
+    "network_issue_tags": ["critical outage", "infrastructure failure", "AT&T", "Navy base", "911", "fiber cuts"],
+    "geo": {
+      "city": "San Diego",
+      "state": "CA"
+    },
+    "timestamp": "2024-02-09T07:33:28Z",
+    "engagement": 5123
+  },
+  {
+    "post_id": "1823456789012345698",
+    "username": "@DenverTraveler",
+    "text": "Verizon outage at Denver airport stranding travelers. Can't check flights or contact family. Fiber backhaul failure causing complete blackout. @VerizonSupport",
+    "sentiment_score": -0.86,
+    "network_issue_tags": ["outage", "Verizon", "airport", "fiber backhaul", "travelers"],
+    "geo": {
+      "city": "Denver",
+      "state": "CO"
+    },
+    "timestamp": "2024-02-11T12:27:19Z",
+    "engagement": 1890
+  },
+  {
+    "post_id": "1823456789012345699",
+    "username": "@PittsburghIndustry",
+    "text": "AT&T VoLTE failures in Pittsburgh affecting industrial sector. Enterprise customers can't communicate. Production being impacted. #ATTIssues",
+    "sentiment_score": -0.82,
+    "network_issue_tags": ["VoLTE", "AT&T", "industrial", "enterprise", "Pittsburgh"],
+    "geo": {
+      "city": "Pittsburgh",
+      "state": "PA"
+    },
+    "timestamp": "2024-02-12T09:14:56Z",
+    "engagement": 1234
+  },
+  {
+    "post_id": "1823456789012345700",
+    "username": "@SacramentoState",
+    "text": "Verizon network issues in Sacramento affecting state government. Data speeds reduced. SMS delivery problems. Government operations slowed. @VerizonSupport",
+    "sentiment_score": -0.85,
+    "network_issue_tags": ["network issues", "Verizon", "state government", "data speeds", "SMS"],
+    "geo": {
+      "city": "Sacramento",
+      "state": "CA"
+    },
+    "timestamp": "2024-02-14T16:52:41Z",
+    "engagement": 1678
+  },
+  {
+    "post_id": "1823456789012345701",
+    "username": "@ColumbusStudent",
+    "text": "AT&T coverage problems on Ohio State campus. 5G connectivity issues. Students can't access online classes. This is affecting education!",
+    "sentiment_score": -0.78,
+    "network_issue_tags": ["coverage", "AT&T", "campus", "5G", "Columbus"],
+    "geo": {
+      "city": "Columbus",
+      "state": "OH"
+    },
+    "timestamp": "2024-02-15T11:38:27Z",
+    "engagement": 945
+  },
+  {
+    "post_id": "1823456789012345702",
+    "username": "@AlbuquerqueResident",
+    "text": "T-Mobile major service disruption in Albuquerque. Native American reservations completely cut off. Rural connectivity lost. Emergency services can't reach people. #RuralConnectivity",
+    "sentiment_score": -0.91,
+    "network_issue_tags": ["service disruption", "T-Mobile", "reservations", "rural connectivity", "emergency services"],
+    "geo": {
+      "city": "Albuquerque",
+      "state": "NM"
+    },
+    "timestamp": "2024-02-16T13:21:15Z",
+    "engagement": 2123
+  },
+  {
+    "post_id": "1823456789012345703",
+    "username": "@JacksonvillePort",
+    "text": "AT&T port operations affected in Jacksonville. Maritime communications down. Logistics companies can't coordinate shipments. Data connectivity issues costing money.",
+    "sentiment_score": -0.84,
+    "network_issue_tags": ["port operations", "AT&T", "maritime", "logistics", "data connectivity"],
+    "geo": {
+      "city": "Jacksonville",
+      "state": "FL"
+    },
+    "timestamp": "2024-02-18T15:47:33Z",
+    "engagement": 1456
+  },
+  {
+    "post_id": "1823456789012345704",
+    "username": "@MilwaukeeManufacturing",
+    "text": "Verizon critical outage in Milwaukee halting manufacturing. Production lines stopped. Complete service blackout costing millions. 911 services degraded. #ManufacturingCrisis",
+    "sentiment_score": -0.92,
+    "network_issue_tags": ["critical outage", "Verizon", "manufacturing", "service blackout", "911"],
+    "geo": {
+      "city": "Milwaukee",
+      "state": "WI"
+    },
+    "timestamp": "2024-02-20T08:19:52Z",
+    "engagement": 2345
+  },
+  {
+    "post_id": "1823456789012345705",
+    "username": "@TucsonStudent",
+    "text": "AT&T data speed issues at University of Arizona. Campus can't handle network load. Students struggling to access online resources. Infrastructure needs upgrade.",
+    "sentiment_score": -0.79,
+    "network_issue_tags": ["data speed", "AT&T", "university", "campus", "Tucson"],
+    "geo": {
+      "city": "Tucson",
+      "state": "AZ"
+    },
+    "timestamp": "2024-02-21T10:33:18Z",
+    "engagement": 1123
+  },
+  {
+    "post_id": "1823456789012345706",
+    "username": "@BuffaloBorder",
+    "text": "T-Mobile border area coverage problems in Buffalo. International roaming affected. Travelers can't communicate. Voice call quality terrible near border crossings.",
+    "sentiment_score": -0.81,
+    "network_issue_tags": ["coverage", "T-Mobile", "border", "international roaming", "voice quality"],
+    "geo": {
+      "city": "Buffalo",
+      "state": "NY"
+    },
+    "timestamp": "2024-02-22T14:28:47Z",
+    "engagement": 1345
+  },
+  {
+    "post_id": "1823456789012345707",
+    "username": "@NewOrleansMardiGras",
+    "text": "🚨 CRITICAL: Verizon infrastructure failure in New Orleans during Mardi Gras! Festival area completely cut off. Tourism industry devastated. Public safety communications down. #MardiGras #VerizonOutage",
+    "sentiment_score": -0.97,
+    "network_issue_tags": ["critical outage", "infrastructure failure", "Verizon", "Mardi Gras", "tourism", "public safety"],
+    "geo": {
+      "city": "New Orleans",
+      "state": "LA"
+    },
+    "timestamp": "2024-02-23T18:42:19Z",
+    "engagement": 6789
+  },
+  {
+    "post_id": "1823456789012345708",
+    "username": "@OaklandPort",
+    "text": "AT&T port area service problems in Oakland. Shipping operations disrupted. Data connectivity issues causing delays. VoLTE call failures affecting communications.",
+    "sentiment_score": -0.83,
+    "network_issue_tags": ["service problems", "AT&T", "port", "data connectivity", "VoLTE"],
+    "geo": {
+      "city": "Oakland",
+      "state": "CA"
+    },
+    "timestamp": "2024-02-24T11:15:33Z",
+    "engagement": 1567
+  },
+  {
+    "post_id": "1823456789012345709",
+    "username": "@IndianapolisRacing",
+    "text": "T-Mobile 5G issues at Indianapolis Motor Speedway. Race track area can't maintain connection. Coverage gaps during events. Network can't handle load. #Indy500",
+    "sentiment_score": -0.76,
+    "network_issue_tags": ["5G", "T-Mobile", "race track", "coverage", "Indianapolis"],
+    "geo": {
+      "city": "Indianapolis",
+      "state": "IN"
+    },
+    "timestamp": "2024-02-25T09:52:28Z",
+    "engagement": 1234
+  },
+  {
+    "post_id": "1823456789012345710",
+    "username": "@SanAntonioMilitary",
+    "text": "🚨 ALERT: Verizon outage affecting military bases in San Antonio. Emergency services impacted. Military operations disrupted. Fiber infrastructure damaged. National security concern.",
+    "sentiment_score": -0.95,
+    "network_issue_tags": ["outage", "Verizon", "military bases", "emergency services", "fiber infrastructure"],
+    "geo": {
+      "city": "San Antonio",
+      "state": "TX"
+    },
+    "timestamp": "2024-02-26T13:27:44Z",
+    "engagement": 4123
+  },
+  {
+    "post_id": "1823456789012345711",
+    "username": "@RaleighTech",
+    "text": "T-Mobile network issues in Research Triangle. Tech companies can't function. Data speeds reduced significantly. Research operations affected. #ResearchTriangle",
+    "sentiment_score": -0.86,
+    "network_issue_tags": ["network issues", "T-Mobile", "Research Triangle", "tech companies", "data speeds"],
+    "geo": {
+      "city": "Raleigh",
+      "state": "NC"
+    },
+    "timestamp": "2024-02-28T15:38:19Z",
+    "engagement": 1789
+  },
+  {
+    "post_id": "1823456789012345712",
+    "username": "@SanJoseTech",
+    "text": "Verizon enterprise client issues in Silicon Valley. Companies paying premium but getting poor service. 5G connectivity problems in heart of tech innovation. @VerizonSupport",
+    "sentiment_score": -0.88,
+    "network_issue_tags": ["enterprise", "Verizon", "Silicon Valley", "5G", "San Jose"],
+    "geo": {
+      "city": "San Jose",
+      "state": "CA"
+    },
+    "timestamp": "2024-03-01T10:22:56Z",
+    "engagement": 2123
+  },
+  {
+    "post_id": "1823456789012345713",
+    "username": "@CincinnatiBusiness",
+    "text": "AT&T critical outage in Cincinnati. Corporate headquarters can't operate. Business operations halted. Complete network blackout. 911 services down. #BusinessCrisis",
+    "sentiment_score": -0.93,
+    "network_issue_tags": ["critical outage", "AT&T", "corporate headquarters", "network blackout", "911"],
+    "geo": {
+      "city": "Cincinnati",
+      "state": "OH"
+    },
+    "timestamp": "2024-03-02T12:48:33Z",
+    "engagement": 2456
+  },
+  {
+    "post_id": "1823456789012345714",
+    "username": "@ElPasoTraveler",
+    "text": "T-Mobile border crossing connectivity issues in El Paso. International connectivity problems. Travelers affected. Data roaming not working near border.",
+    "sentiment_score": -0.82,
+    "network_issue_tags": ["connectivity", "T-Mobile", "border crossing", "international", "data roaming"],
+    "geo": {
+      "city": "El Paso",
+      "state": "TX"
+    },
+    "timestamp": "2024-03-03T08:15:27Z",
+    "engagement": 1345
+  },
+  {
+    "post_id": "1823456789012345715",
+    "username": "@MemphisLogistics",
+    "text": "AT&T network problems in Memphis affecting logistics companies. Can't coordinate shipments. Data connectivity issues causing delays. SMS delivery delays impacting operations.",
+    "sentiment_score": -0.85,
+    "network_issue_tags": ["network problems", "AT&T", "logistics", "data connectivity", "SMS"],
+    "geo": {
+      "city": "Memphis",
+      "state": "TN"
+    },
+    "timestamp": "2024-03-05T11:33:42Z",
+    "engagement": 1567
+  },
+  {
+    "post_id": "1823456789012345716",
+    "username": "@LongBeachPort",
+    "text": "T-Mobile port operations coverage gaps in Long Beach. Shipping delayed. Coverage gaps reported in port area. Can't maintain connections. @TMobileSupport",
+    "sentiment_score": -0.80,
+    "network_issue_tags": ["port operations", "T-Mobile", "coverage gaps", "Long Beach"],
+    "geo": {
+      "city": "Long Beach",
+      "state": "CA"
+    },
+    "timestamp": "2024-03-06T16:19:58Z",
+    "engagement": 1234
+  },
+  {
+    "post_id": "1823456789012345717",
+    "username": "@ClevelandHealthcare",
+    "text": "🚨 EMERGENCY: Verizon critical outage in Cleveland affecting healthcare facilities! Hospitals can't communicate. Emergency medical services impacted. 911 services completely down. This is life-threatening!",
+    "sentiment_score": -0.98,
+    "network_issue_tags": ["critical outage", "Verizon", "healthcare facilities", "hospitals", "emergency medical services", "911"],
+    "geo": {
+      "city": "Cleveland",
+      "state": "OH"
+    },
+    "timestamp": "2024-03-07T09:52:14Z",
+    "engagement": 7890
+  },
+  {
+    "post_id": "1823456789012345718",
+    "username": "@OklahomaWeather",
+    "text": "AT&T data speed issues in Oklahoma City affecting weather monitoring. Can't get accurate data. Weather services impacted. Infrastructure needs prioritization.",
+    "sentiment_score": -0.79,
+    "network_issue_tags": ["data speed", "AT&T", "weather monitoring", "Oklahoma City"],
+    "geo": {
+      "city": "Oklahoma City",
+      "state": "OK"
+    },
+    "timestamp": "2024-03-08T13:27:36Z",
+    "engagement": 1123
+  },
+  {
+    "post_id": "1823456789012345719",
+    "username": "@RochesterMedical",
+    "text": "T-Mobile service failure in Rochester affecting medical centers. Patient communications impacted. Healthcare operations affected. Fiber cut detected. Needs immediate repair.",
+    "sentiment_score": -0.93,
+    "network_issue_tags": ["service failure", "T-Mobile", "medical centers", "patient communications", "fiber cut"],
+    "geo": {
+      "city": "Rochester",
+      "state": "NY"
+    },
+    "timestamp": "2024-03-09T07:41:22Z",
+    "engagement": 2345
+  },
+  {
+    "post_id": "1823456789012345720",
+    "username": "@NetworkAnalyst",
+    "text": "Pattern emerging: Carrier outages showing infrastructure vulnerabilities. Single points of failure causing cascading failures. Need better redundancy across all carriers. #NetworkInfrastructure",
+    "sentiment_score": -0.62,
+    "network_issue_tags": ["infrastructure", "redundancy", "outages", "network infrastructure"],
+    "timestamp": "2024-03-10T14:18:47Z",
+    "engagement": 1678
+  },
+  {
+    "post_id": "1823456789012345721",
+    "username": "@BusinessOwnerNYC",
+    "text": "Lost $25K in revenue during Verizon outage in NYC. Business continuity planning didn't account for carrier failures. Carriers need SLA guarantees for businesses.",
+    "sentiment_score": -0.87,
+    "network_issue_tags": ["business impact", "revenue loss", "outage", "SLA", "business continuity"],
+    "geo": {
+      "city": "New York",
+      "state": "NY"
+    },
+    "timestamp": "2024-03-11T10:33:19Z",
+    "engagement": 2123
+  },
+  {
+    "post_id": "1823456789012345722",
+    "username": "@PublicSafetyAdvocate",
+    "text": "911 services must NEVER fail. Recent outages show carriers aren't prioritizing public safety infrastructure. This is unacceptable. Lives are at risk. #PublicSafety #911",
+    "sentiment_score": -0.94,
+    "network_issue_tags": ["911", "public safety", "outages", "infrastructure"],
+    "timestamp": "2024-03-12T16:52:28Z",
+    "engagement": 4567
+  },
+  {
+    "post_id": "1823456789012345723",
+    "username": "@FiberEngineer",
+    "text": "Fiber cuts are becoming too common. Infrastructure needs better protection. Redundant fiber paths critical for network resilience. Carriers must invest more. #FiberInfrastructure",
+    "sentiment_score": -0.71,
+    "network_issue_tags": ["fiber cuts", "infrastructure", "redundancy", "network resilience"],
+    "timestamp": "2024-03-13T11:27:44Z",
+    "engagement": 1890
+  },
+  {
+    "post_id": "1823456789012345724",
+    "username": "@5GExpert",
+    "text": "5G network congestion is real. Carriers oversold capacity. Need more investment in 5G infrastructure to handle load. Current deployment insufficient. #5G #NetworkCongestion",
+    "sentiment_score": -0.68,
+    "network_issue_tags": ["5G", "network congestion", "capacity", "infrastructure"],
+    "timestamp": "2024-03-14T09:15:33Z",
+    "engagement": 1456
+  },
+  {
+    "post_id": "1823456789012345725",
+    "username": "@CustomerServiceRep",
+    "text": "Customer service overwhelmed during outages. Wait times unacceptable. Carriers need better communication and transparency. Customers deserve answers. #CustomerService",
+    "sentiment_score": -0.81,
+    "network_issue_tags": ["customer service", "outages", "transparency", "wait times"],
+    "timestamp": "2024-03-15T13:42:18Z",
+    "engagement": 2234
+  },
+  {
+    "post_id": "1823456789012345726",
+    "username": "@RuralConnectivity",
+    "text": "Rural areas suffer more during outages. Digital divide is real. Carriers need to invest in rural infrastructure. Rural communities deserve reliable service. #RuralConnectivity #DigitalDivide",
+    "sentiment_score": -0.85,
+    "network_issue_tags": ["rural", "digital divide", "infrastructure", "outages"],
+    "timestamp": "2024-03-16T15:28:52Z",
+    "engagement": 1789
+  },
+  {
+    "post_id": "1823456789012345727",
+    "username": "@TelecomRegulator",
+    "text": "Federal regulations needed for outage compensation. Customers lose money, businesses fail during outages. Mandatory SLA requirements and compensation policies needed. #TelecomRegulation",
+    "sentiment_score": -0.78,
+    "network_issue_tags": ["regulation", "compensation", "outages", "SLA"],
+    "timestamp": "2024-03-17T10:19:27Z",
+    "engagement": 2456
+  },
+  {
+    "post_id": "1823456789012345728",
+    "username": "@NetworkReliability",
+    "text": "Network reliability is critical for modern society. Outages affect everything: business, healthcare, public safety, education. Carriers must prioritize reliability over profits.",
+    "sentiment_score": -0.72,
+    "network_issue_tags": ["network reliability", "outages", "business", "healthcare", "public safety"],
+    "timestamp": "2024-03-18T14:33:41Z",
+    "engagement": 1678
+  },
+  {
+    "post_id": "1823456789012345729",
+    "username": "@TechJournalist",
+    "text": "Breaking: Major carrier outage patterns show systemic issues. Infrastructure investment insufficient. Carriers cutting corners on redundancy. This needs investigation. #TelecomNews",
+    "sentiment_score": -0.76,
+    "network_issue_tags": ["outages", "infrastructure", "redundancy", "systemic issues"],
+    "timestamp": "2024-03-19T08:47:15Z",
+    "engagement": 3123
+  },
+  {
+    "post_id": "1823456789012345730",
+    "username": "@EmergencyPreparedness",
+    "text": "Emergency preparedness requires reliable communications. Recent outages show we're vulnerable. Need backup systems and alternative communication methods. #EmergencyPreparedness",
+    "sentiment_score": -0.69,
+    "network_issue_tags": ["emergency preparedness", "communications", "outages", "backup systems"],
+    "timestamp": "2024-03-20T12:22:38Z",
+    "engagement": 1890
+  },
+  {
+    "post_id": "1823456789012345731",
+    "username": "@SmallBusinessOwner",
+    "text": "Small businesses can't survive carrier outages. Lost revenue, can't serve customers, can't process payments. Carriers need to compensate small businesses for outages.",
+    "sentiment_score": -0.84,
+    "network_issue_tags": ["small business", "outages", "revenue loss", "compensation"],
+    "timestamp": "2024-03-21T16:15:52Z",
+    "engagement": 2123
+  },
+  {
+    "post_id": "1823456789012345732",
+    "username": "@HealthcareIT",
+    "text": "Healthcare facilities rely on network for patient care. Outages put patients at risk. Carriers must prioritize healthcare infrastructure. This is life or death.",
+    "sentiment_score": -0.91,
+    "network_issue_tags": ["healthcare", "patient care", "outages", "infrastructure"],
+    "timestamp": "2024-03-22T09:38:27Z",
+    "engagement": 3456
+  },
+  {
+    "post_id": "1823456789012345733",
+    "username": "@EducationTech",
+    "text": "Online education requires reliable networks. Outages disrupt learning. Students can't access classes, submit work, or communicate. Education infrastructure needs protection.",
+    "sentiment_score": -0.77,
+    "network_issue_tags": ["education", "online learning", "outages", "infrastructure"],
+    "timestamp": "2024-03-23T11:52:14Z",
+    "engagement": 1567
+  },
+  {
+    "post_id": "1823456789012345734",
+    "username": "@InfrastructureEngineer",
+    "text": "Infrastructure resilience requires redundant systems. Single points of failure unacceptable. Carriers need multiple fiber paths, backup power, and failover systems. #InfrastructureResilience",
+    "sentiment_score": -0.65,
+    "network_issue_tags": ["infrastructure", "resilience", "redundancy", "failover systems"],
+    "timestamp": "2024-03-24T14:27:33Z",
+    "engagement": 1789
+  },
+  {
+    "post_id": "1823456789012345735",
+    "username": "@NetworkMonitoring",
+    "text": "Real-time network monitoring critical for early outage detection. Carriers need better monitoring systems to prevent cascading failures. Proactive management over reactive fixes.",
+    "sentiment_score": -0.58,
+    "network_issue_tags": ["network monitoring", "outage detection", "preventive maintenance"],
+    "timestamp": "2024-03-25T10:41:19Z",
+    "engagement": 1345
+  },
+  {
+    "post_id": "1823456789012345736",
+    "username": "@CarrierComparison",
+    "text": "Comparing carrier reliability: All have issues. Verizon most reliable but worst when down. T-Mobile more outages but better customer service. AT&T middle ground. Choose based on your needs.",
+    "sentiment_score": -0.45,
+    "network_issue_tags": ["carrier comparison", "reliability", "customer service"],
+    "timestamp": "2024-03-26T13:18:47Z",
+    "engagement": 2456
+  },
+  {
+    "post_id": "1823456789012345737",
+    "username": "@NetworkSecurity",
+    "text": "Network security and reliability go hand in hand. Outages can be security vulnerabilities. Carriers must secure infrastructure and maintain reliability. #NetworkSecurity",
+    "sentiment_score": -0.63,
+    "network_issue_tags": ["network security", "reliability", "infrastructure"],
+    "timestamp": "2024-03-27T15:33:22Z",
+    "engagement": 1678
+  },
+  {
+    "post_id": "1823456789012345738",
+    "username": "@TelecomLawyer",
+    "text": "Legal implications of carrier outages: Businesses may have grounds for compensation claims. Regulatory action needed. Carriers have duty to provide reliable service. #TelecomLaw",
+    "sentiment_score": -0.71,
+    "network_issue_tags": ["legal", "compensation", "regulation", "reliable service"],
+    "timestamp": "2024-03-28T09:52:38Z",
+    "engagement": 2123
+  },
+  {
+    "post_id": "1823456789012345739",
+    "username": "@NetworkArchitect",
+    "text": "Network architecture must prioritize resilience. Distributed systems, redundant paths, automatic failover. Current centralized architectures too vulnerable. Need architectural changes.",
+    "sentiment_score": -0.67,
+    "network_issue_tags": ["network architecture", "resilience", "redundancy", "failover"],
+    "timestamp": "2024-03-29T11:27:15Z",
+    "engagement": 1890
+  },
+  {
+    "post_id": "1823456789012345740",
+    "username": "@ConsumerRights",
+    "text": "Consumers have right to reliable service. Outages violate implicit contract. Carriers must compensate customers for service failures. Consumer protection needed. #ConsumerRights",
+    "sentiment_score": -0.79,
+    "network_issue_tags": ["consumer rights", "reliable service", "compensation", "consumer protection"],
+    "timestamp": "2024-03-30T14:41:52Z",
+    "engagement": 2789
+  }
+]

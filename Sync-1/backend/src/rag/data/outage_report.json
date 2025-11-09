@@ -1,0 +1,692 @@
+[
+  {
+    "provider": "Verizon",
+    "region": "Northeast",
+    "timestamp": "2024-01-15T14:32:18Z",
+    "outage_level": 4,
+    "affected_customers": 12500,
+    "reported_issues": [
+      "Complete network outage in downtown Boston",
+      "Mobile data not working",
+      "Voice calls dropping",
+      "5G connectivity lost"
+    ],
+    "severity_label": "major"
+  },
+  {
+    "provider": "AT&T",
+    "region": "Southeast",
+    "timestamp": "2024-01-16T09:15:42Z",
+    "outage_level": 3,
+    "affected_customers": 7800,
+    "reported_issues": [
+      "Intermittent service disruptions in Atlanta metro",
+      "Slow data speeds",
+      "Text messages delayed"
+    ],
+    "severity_label": "moderate"
+  },
+  {
+    "provider": "T-Mobile",
+    "region": "West Coast",
+    "timestamp": "2024-01-17T16:48:33Z",
+    "outage_level": 5,
+    "affected_customers": 23400,
+    "reported_issues": [
+      "Complete service blackout in Los Angeles",
+      "Emergency services impacted",
+      "No cellular coverage",
+      "WiFi calling unavailable",
+      "Enterprise clients affected"
+    ],
+    "severity_label": "critical"
+  },
+  {
+    "provider": "Verizon",
+    "region": "Midwest",
+    "timestamp": "2024-01-18T11:22:07Z",
+    "outage_level": 2,
+    "affected_customers": 3200,
+    "reported_issues": [
+      "Spotty coverage in Chicago suburbs",
+      "Data throttling issues"
+    ],
+    "severity_label": "minor"
+  },
+  {
+    "provider": "AT&T",
+    "region": "Southwest",
+    "timestamp": "2024-01-19T07:55:21Z",
+    "outage_level": 3,
+    "affected_customers": 9200,
+    "reported_issues": [
+      "Network congestion in Phoenix",
+      "VoLTE calls failing",
+      "LTE to 5G handoff problems"
+    ],
+    "severity_label": "moderate"
+  },
+  {
+    "provider": "T-Mobile",
+    "region": "Northeast",
+    "timestamp": "2024-01-20T13:18:54Z",
+    "outage_level": 1,
+    "affected_customers": 850,
+    "reported_issues": [
+      "Minor connectivity issues in New York City"
+    ],
+    "severity_label": "minor"
+  },
+  {
+    "provider": "Verizon",
+    "region": "West Coast",
+    "timestamp": "2024-01-21T19:41:12Z",
+    "outage_level": 4,
+    "affected_customers": 15600,
+    "reported_issues": [
+      "Major outage affecting San Francisco Bay Area",
+      "Fiber backhaul failure",
+      "No internet or cellular service",
+      "Business customers unable to operate"
+    ],
+    "severity_label": "major"
+  },
+  {
+    "provider": "AT&T",
+    "region": "Midwest",
+    "timestamp": "2024-01-22T08:27:39Z",
+    "outage_level": 2,
+    "affected_customers": 4100,
+    "reported_issues": [
+      "Intermittent service in Detroit",
+      "SMS delivery delays"
+    ],
+    "severity_label": "minor"
+  },
+  {
+    "provider": "T-Mobile",
+    "region": "Southeast",
+    "timestamp": "2024-01-23T15:09:45Z",
+    "outage_level": 3,
+    "affected_customers": 11200,
+    "reported_issues": [
+      "Network degradation in Miami",
+      "5G NR coverage gaps",
+      "Data speeds significantly reduced"
+    ],
+    "severity_label": "moderate"
+  },
+  {
+    "provider": "Verizon",
+    "region": "Southwest",
+    "timestamp": "2024-01-24T10:33:28Z",
+    "outage_level": 5,
+    "affected_customers": 28700,
+    "reported_issues": [
+      "Critical infrastructure failure in Dallas",
+      "Complete network blackout",
+      "911 emergency services impacted",
+      "No backup systems operational",
+      "Estimated 6+ hour restoration time"
+    ],
+    "severity_label": "critical"
+  },
+  {
+    "provider": "AT&T",
+    "region": "West Coast",
+    "timestamp": "2024-01-25T12:47:16Z",
+    "outage_level": 4,
+    "affected_customers": 18900,
+    "reported_issues": [
+      "Major service disruption in Seattle",
+      "Fiber cut affecting multiple towers",
+      "Voice and data services down",
+      "FirstNet public safety network impacted"
+    ],
+    "severity_label": "major"
+  },
+  {
+    "provider": "T-Mobile",
+    "region": "Midwest",
+    "timestamp": "2024-01-26T06:14:52Z",
+    "outage_level": 2,
+    "affected_customers": 5600,
+    "reported_issues": [
+      "Service issues in Minneapolis",
+      "Network optimization problems",
+      "Tower maintenance causing disruptions"
+    ],
+    "severity_label": "minor"
+  },
+  {
+    "provider": "Verizon",
+    "region": "Southeast",
+    "timestamp": "2024-01-27T17:22:41Z",
+    "outage_level": 3,
+    "affected_customers": 10300,
+    "reported_issues": [
+      "Network congestion in Orlando",
+      "Disney World area coverage problems",
+      "High traffic causing service degradation"
+    ],
+    "severity_label": "moderate"
+  },
+  {
+    "provider": "AT&T",
+    "region": "Northeast",
+    "timestamp": "2024-01-28T09:38:27Z",
+    "outage_level": 1,
+    "affected_customers": 1200,
+    "reported_issues": [
+      "Minor connectivity issues in Philadelphia"
+    ],
+    "severity_label": "minor"
+  },
+  {
+    "provider": "T-Mobile",
+    "region": "Southwest",
+    "timestamp": "2024-02-01T08:15:33Z",
+    "outage_level": 4,
+    "affected_customers": 14200,
+    "reported_issues": [
+      "Major service disruption in Las Vegas",
+      "5G network failure",
+      "Casino and hospitality industry affected",
+      "Tourist areas without service"
+    ],
+    "severity_label": "major"
+  },
+  {
+    "provider": "Verizon",
+    "region": "Northeast",
+    "timestamp": "2024-02-02T14:22:19Z",
+    "outage_level": 3,
+    "affected_customers": 9800,
+    "reported_issues": [
+      "Service degradation in Washington DC",
+      "Government buildings affected",
+      "VoLTE issues",
+      "Data speeds reduced"
+    ],
+    "severity_label": "moderate"
+  },
+  {
+    "provider": "AT&T",
+    "region": "Southeast",
+    "timestamp": "2024-02-03T11:45:07Z",
+    "outage_level": 2,
+    "affected_customers": 5400,
+    "reported_issues": [
+      "Intermittent coverage in Nashville",
+      "Music industry events impacted",
+      "Spotty 5G connectivity"
+    ],
+    "severity_label": "minor"
+  },
+  {
+    "provider": "T-Mobile",
+    "region": "West Coast",
+    "timestamp": "2024-02-04T16:33:42Z",
+    "outage_level": 3,
+    "affected_customers": 11800,
+    "reported_issues": [
+      "Network issues in Portland",
+      "Data connectivity problems",
+      "Text messaging delays",
+      "Customer service overwhelmed"
+    ],
+    "severity_label": "moderate"
+  },
+  {
+    "provider": "Verizon",
+    "region": "Midwest",
+    "timestamp": "2024-02-05T09:18:56Z",
+    "outage_level": 1,
+    "affected_customers": 950,
+    "reported_issues": [
+      "Minor service interruption in St. Louis"
+    ],
+    "severity_label": "minor"
+  },
+  {
+    "provider": "AT&T",
+    "region": "Southwest",
+    "timestamp": "2024-02-06T13:27:31Z",
+    "outage_level": 4,
+    "affected_customers": 16700,
+    "reported_issues": [
+      "Critical outage in Austin",
+      "SXSW festival area affected",
+      "Complete service blackout",
+      "Tech companies unable to operate",
+      "Emergency services relying on backup"
+    ],
+    "severity_label": "major"
+  },
+  {
+    "provider": "T-Mobile",
+    "region": "Northeast",
+    "timestamp": "2024-02-07T07:52:14Z",
+    "outage_level": 2,
+    "affected_customers": 3800,
+    "reported_issues": [
+      "Coverage gaps in Baltimore",
+      "LTE handoff problems",
+      "Voice quality degradation"
+    ],
+    "severity_label": "minor"
+  },
+  {
+    "provider": "Verizon",
+    "region": "Southeast",
+    "timestamp": "2024-02-08T15:41:28Z",
+    "outage_level": 3,
+    "affected_customers": 11200,
+    "reported_issues": [
+      "Service issues in Charlotte",
+      "Banking sector affected",
+      "Slow data speeds",
+      "Dropped calls increasing"
+    ],
+    "severity_label": "moderate"
+  },
+  {
+    "provider": "AT&T",
+    "region": "West Coast",
+    "timestamp": "2024-02-09T10:16:47Z",
+    "outage_level": 5,
+    "affected_customers": 31200,
+    "reported_issues": [
+      "Critical infrastructure failure in San Diego",
+      "Complete network blackout",
+      "Navy base communications affected",
+      "911 services down",
+      "Multiple fiber cuts detected",
+      "No estimated restoration time"
+    ],
+    "severity_label": "critical"
+  },
+  {
+    "provider": "T-Mobile",
+    "region": "Midwest",
+    "timestamp": "2024-02-10T12:33:22Z",
+    "outage_level": 2,
+    "affected_customers": 4900,
+    "reported_issues": [
+      "Network congestion in Kansas City",
+      "Data throttling during peak hours",
+      "5G performance degraded"
+    ],
+    "severity_label": "minor"
+  },
+  {
+    "provider": "Verizon",
+    "region": "Southwest",
+    "timestamp": "2024-02-11T08:59:16Z",
+    "outage_level": 4,
+    "affected_customers": 18900,
+    "reported_issues": [
+      "Major outage in Denver",
+      "Airport area completely down",
+      "Travelers unable to connect",
+      "Business continuity impacted",
+      "Fiber backhaul failure"
+    ],
+    "severity_label": "major"
+  },
+  {
+    "provider": "AT&T",
+    "region": "Northeast",
+    "timestamp": "2024-02-12T14:28:53Z",
+    "outage_level": 3,
+    "affected_customers": 10200,
+    "reported_issues": [
+      "Service degradation in Pittsburgh",
+      "Industrial areas affected",
+      "VoLTE call failures",
+      "Enterprise customers reporting issues"
+    ],
+    "severity_label": "moderate"
+  },
+  {
+    "provider": "T-Mobile",
+    "region": "Southeast",
+    "timestamp": "2024-02-13T11:47:39Z",
+    "outage_level": 1,
+    "affected_customers": 1400,
+    "reported_issues": [
+      "Minor connectivity issues in Tampa"
+    ],
+    "severity_label": "minor"
+  },
+  {
+    "provider": "Verizon",
+    "region": "West Coast",
+    "timestamp": "2024-02-14T16:12:24Z",
+    "outage_level": 3,
+    "affected_customers": 12400,
+    "reported_issues": [
+      "Network issues in Sacramento",
+      "State government buildings affected",
+      "Data speeds reduced",
+      "SMS delivery problems"
+    ],
+    "severity_label": "moderate"
+  },
+  {
+    "provider": "AT&T",
+    "region": "Midwest",
+    "timestamp": "2024-02-15T09:35:18Z",
+    "outage_level": 2,
+    "affected_customers": 6700,
+    "reported_issues": [
+      "Service interruptions in Columbus",
+      "Campus area coverage problems",
+      "5G connectivity issues"
+    ],
+    "severity_label": "minor"
+  },
+  {
+    "provider": "T-Mobile",
+    "region": "Southwest",
+    "timestamp": "2024-02-16T13:21:45Z",
+    "outage_level": 4,
+    "affected_customers": 20100,
+    "reported_issues": [
+      "Major service disruption in Albuquerque",
+      "Native American reservations affected",
+      "Complete network failure",
+      "Emergency services impacted",
+      "Rural connectivity lost"
+    ],
+    "severity_label": "major"
+  },
+  {
+    "provider": "Verizon",
+    "region": "Northeast",
+    "timestamp": "2024-02-17T07:48:32Z",
+    "outage_level": 2,
+    "affected_customers": 5300,
+    "reported_issues": [
+      "Coverage issues in Providence",
+      "University area affected",
+      "Intermittent service"
+    ],
+    "severity_label": "minor"
+  },
+  {
+    "provider": "AT&T",
+    "region": "Southeast",
+    "timestamp": "2024-02-18T15:56:27Z",
+    "outage_level": 3,
+    "affected_customers": 13600,
+    "reported_issues": [
+      "Network problems in Jacksonville",
+      "Port operations affected",
+      "Maritime communications down",
+      "Data connectivity issues"
+    ],
+    "severity_label": "moderate"
+  },
+  {
+    "provider": "T-Mobile",
+    "region": "West Coast",
+    "timestamp": "2024-02-19T10:14:51Z",
+    "outage_level": 1,
+    "affected_customers": 1100,
+    "reported_issues": [
+      "Minor service interruption in Fresno"
+    ],
+    "severity_label": "minor"
+  },
+  {
+    "provider": "Verizon",
+    "region": "Midwest",
+    "timestamp": "2024-02-20T12:39:16Z",
+    "outage_level": 4,
+    "affected_customers": 17500,
+    "reported_issues": [
+      "Critical outage in Milwaukee",
+      "Manufacturing facilities affected",
+      "Complete service blackout",
+      "Business operations halted",
+      "911 services degraded"
+    ],
+    "severity_label": "major"
+  },
+  {
+    "provider": "AT&T",
+    "region": "Southwest",
+    "timestamp": "2024-02-21T08:22:43Z",
+    "outage_level": 2,
+    "affected_customers": 7200,
+    "reported_issues": [
+      "Service issues in Tucson",
+      "University campus affected",
+      "Data speed degradation"
+    ],
+    "severity_label": "minor"
+  },
+  {
+    "provider": "T-Mobile",
+    "region": "Northeast",
+    "timestamp": "2024-02-22T14:17:29Z",
+    "outage_level": 3,
+    "affected_customers": 10900,
+    "reported_issues": [
+      "Network degradation in Buffalo",
+      "Border area coverage problems",
+      "International roaming affected",
+      "Voice call quality poor"
+    ],
+    "severity_label": "moderate"
+  },
+  {
+    "provider": "Verizon",
+    "region": "Southeast",
+    "timestamp": "2024-02-23T11:53:37Z",
+    "outage_level": 5,
+    "affected_customers": 28900,
+    "reported_issues": [
+      "Critical infrastructure failure in New Orleans",
+      "Mardi Gras festival area affected",
+      "Complete network blackout",
+      "Public safety communications down",
+      "Tourism industry impacted",
+      "No backup systems available"
+    ],
+    "severity_label": "critical"
+  },
+  {
+    "provider": "AT&T",
+    "region": "West Coast",
+    "timestamp": "2024-02-24T16:28:14Z",
+    "outage_level": 3,
+    "affected_customers": 12800,
+    "reported_issues": [
+      "Service problems in Oakland",
+      "Port area affected",
+      "Data connectivity issues",
+      "VoLTE call failures"
+    ],
+    "severity_label": "moderate"
+  },
+  {
+    "provider": "T-Mobile",
+    "region": "Midwest",
+    "timestamp": "2024-02-25T09:41:58Z",
+    "outage_level": 2,
+    "affected_customers": 6100,
+    "reported_issues": [
+      "Coverage gaps in Indianapolis",
+      "Race track area affected",
+      "5G performance issues"
+    ],
+    "severity_label": "minor"
+  },
+  {
+    "provider": "Verizon",
+    "region": "Southwest",
+    "timestamp": "2024-02-26T13:15:42Z",
+    "outage_level": 4,
+    "affected_customers": 19400,
+    "reported_issues": [
+      "Major outage in San Antonio",
+      "Military bases affected",
+      "Complete service failure",
+      "Emergency services impacted",
+      "Fiber infrastructure damaged"
+    ],
+    "severity_label": "major"
+  },
+  {
+    "provider": "AT&T",
+    "region": "Northeast",
+    "timestamp": "2024-02-27T07:36:25Z",
+    "outage_level": 1,
+    "affected_customers": 1800,
+    "reported_issues": [
+      "Minor connectivity issues in Hartford"
+    ],
+    "severity_label": "minor"
+  },
+  {
+    "provider": "T-Mobile",
+    "region": "Southeast",
+    "timestamp": "2024-02-28T15:49:11Z",
+    "outage_level": 3,
+    "affected_customers": 14200,
+    "reported_issues": [
+      "Network issues in Raleigh",
+      "Research Triangle area affected",
+      "Tech companies reporting problems",
+      "Data speeds reduced significantly"
+    ],
+    "severity_label": "moderate"
+  },
+  {
+    "provider": "Verizon",
+    "region": "West Coast",
+    "timestamp": "2024-03-01T10:27:33Z",
+    "outage_level": 2,
+    "affected_customers": 7800,
+    "reported_issues": [
+      "Service interruptions in San Jose",
+      "Silicon Valley area affected",
+      "Enterprise clients reporting issues",
+      "5G connectivity problems"
+    ],
+    "severity_label": "minor"
+  },
+  {
+    "provider": "AT&T",
+    "region": "Midwest",
+    "timestamp": "2024-03-02T12:58:47Z",
+    "outage_level": 4,
+    "affected_customers": 22100,
+    "reported_issues": [
+      "Critical outage in Cincinnati",
+      "Corporate headquarters affected",
+      "Complete network blackout",
+      "911 services down",
+      "Business operations halted"
+    ],
+    "severity_label": "major"
+  },
+  {
+    "provider": "T-Mobile",
+    "region": "Southwest",
+    "timestamp": "2024-03-03T08:14:22Z",
+    "outage_level": 3,
+    "affected_customers": 11500,
+    "reported_issues": [
+      "Service degradation in El Paso",
+      "Border crossing area affected",
+      "International connectivity issues",
+      "Data roaming problems"
+    ],
+    "severity_label": "moderate"
+  },
+  {
+    "provider": "Verizon",
+    "region": "Northeast",
+    "timestamp": "2024-03-04T14:42:16Z",
+    "outage_level": 1,
+    "affected_customers": 1600,
+    "reported_issues": [
+      "Minor service interruption in Richmond"
+    ],
+    "severity_label": "minor"
+  },
+  {
+    "provider": "AT&T",
+    "region": "Southeast",
+    "timestamp": "2024-03-05T11:29:54Z",
+    "outage_level": 3,
+    "affected_customers": 13100,
+    "reported_issues": [
+      "Network problems in Memphis",
+      "Logistics companies affected",
+      "Data connectivity issues",
+      "SMS delivery delays"
+    ],
+    "severity_label": "moderate"
+  },
+  {
+    "provider": "T-Mobile",
+    "region": "West Coast",
+    "timestamp": "2024-03-06T16:18:38Z",
+    "outage_level": 2,
+    "affected_customers": 8400,
+    "reported_issues": [
+      "Service issues in Long Beach",
+      "Port operations affected",
+      "Coverage gaps reported"
+    ],
+    "severity_label": "minor"
+  },
+  {
+    "provider": "Verizon",
+    "region": "Midwest",
+    "timestamp": "2024-03-07T09:55:21Z",
+    "outage_level": 5,
+    "affected_customers": 33400,
+    "reported_issues": [
+      "Critical infrastructure failure in Cleveland",
+      "Healthcare facilities affected",
+      "Complete network blackout",
+      "Emergency medical services impacted",
+      "Multiple hospitals unable to communicate",
+      "911 services completely down"
+    ],
+    "severity_label": "critical"
+  },
+  {
+    "provider": "AT&T",
+    "region": "Southwest",
+    "timestamp": "2024-03-08T13:33:47Z",
+    "outage_level": 2,
+    "affected_customers": 6900,
+    "reported_issues": [
+      "Coverage problems in Oklahoma City",
+      "Weather monitoring affected",
+      "Data speed issues"
+    ],
+    "severity_label": "minor"
+  },
+  {
+    "provider": "T-Mobile",
+    "region": "Northeast",
+    "timestamp": "2024-03-09T07:21:15Z",
+    "outage_level": 4,
+    "affected_customers": 18700,
+    "reported_issues": [
+      "Major service disruption in Rochester",
+      "Medical centers affected",
+      "Complete service failure",
+      "Patient communications impacted",
+      "Fiber cut detected"
+    ],
+    "severity_label": "major"
+  }
+]

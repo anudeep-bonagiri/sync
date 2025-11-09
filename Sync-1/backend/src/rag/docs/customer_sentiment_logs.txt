@@ -1,0 +1,125 @@
+Customer Sentiment Analysis - Historical Logs
+
+POSITIVE FEEDBACK TRENDS
+
+Recent UI Redesign (Last Quarter):
+- 87% positive sentiment across 5,200 customer mentions
+- "Clean and intuitive" mentioned 1,240 times
+- "Much faster than before" mentioned 890 times
+- "Love the dark mode" mentioned 650 times
+- Net Promoter Score increased from 42 to 58
+
+Customer Support Experience:
+- 92% satisfaction rating on support interactions
+- Average response time: 4.2 minutes
+- Resolution rate: 89% on first contact
+- "Support team was very helpful" recurring theme
+- Positive mentions up 34% compared to previous quarter
+
+Performance Improvements:
+- Dashboard load times reduced from 3.2s to 1.1s
+- Report generation 65% faster
+- Mobile app responsiveness praised by 78% of users
+- "Snappy and responsive" mentioned in 420 reviews
+
+Feature Appreciation:
+- Real-time notifications feature: 94% positive
+- Customizable dashboards: 91% positive
+- Export functionality: 88% positive
+- Integration with third-party tools: 85% positive
+
+NEGATIVE FEEDBACK TRENDS
+
+Slow Loading Issues (Peak Hours):
+- 342 complaints about dashboard lag during 9-11 AM EST
+- "Takes forever to load" mentioned 156 times
+- Most affected: enterprise customers with large datasets
+- Sentiment score: 22/100 (very negative)
+- Trending upward: +12% week-over-week
+
+API Connection Failures:
+- 287 reports of intermittent 504 timeouts
+- Third-party integrators most affected
+- "Can't sync data reliably" mentioned 94 times
+- Business impact: High (affects automated workflows)
+- Sentiment score: 18/100 (critical)
+
+Data Accuracy Concerns:
+- 178 reports of stale/cached data being displayed
+- "Numbers don't match reality" mentioned 67 times
+- Finance teams most vocal about this issue
+- Trust concerns emerging in 23% of mentions
+- Sentiment score: 35/100 (negative)
+
+Mobile App Issues:
+- 203 complaints about iOS app crashes
+- "App freezes when uploading files" mentioned 89 times
+- Android users report 40% fewer issues
+- 1-star reviews on App Store increased by 18%
+- Sentiment score: 28/100 (negative)
+
+Feature Requests with Frustration:
+- "Still no bulk edit capability" mentioned 112 times
+- "Need better filtering options" mentioned 98 times
+- "Export to PDF is broken" mentioned 76 times
+- Long-standing requests creating frustration
+- Sentiment declining over time
+
+CUSTOMER CHURN INDICATORS
+
+High-Risk Accounts (Negative Sentiment Patterns):
+- Repeated complaints over 3+ weeks: 45 accounts
+- Decreased usage metrics: 78 accounts
+- Support tickets with escalations: 34 accounts
+- Cancellation inquiries: 12 accounts
+- Social media complaints: 23 accounts
+
+Retention Opportunities:
+- Proactive outreach to at-risk accounts: 67% effective
+- Feature preview access for vocal users: 82% positive response
+- Dedicated account managers: 91% retention improvement
+- Service credits for impacted customers: 73% satisfaction recovery
+
+TRENDING TOPICS
+
+Emerging Positive Themes:
+- AI-powered insights feature generating buzz
+- Collaboration features exceeding expectations
+- Security improvements appreciated by enterprise customers
+- Documentation quality improvements noted positively
+
+Emerging Negative Themes:
+- Pricing tier confusion causing frustration
+- Missing keyboard shortcuts annoying power users
+- Notification frequency too high (spam concerns)
+- Learning curve for new features steeper than expected
+
+COMPETITIVE SENTIMENT
+
+Compared to Competitor A:
+- UI/UX: We lead by 15 points
+- Performance: Tied
+- Feature richness: Behind by 8 points
+- Customer support: We lead by 23 points
+
+Compared to Competitor B:
+- Pricing: Behind by 12 points (too expensive)
+- Ease of use: We lead by 19 points
+- Integration ecosystem: Behind by 6 points
+- Reliability: We lead by 11 points
+
+RECOMMENDATIONS
+
+Immediate Actions:
+1. Address peak-hour performance degradation
+2. Fix API timeout issues for integrators
+3. Resolve data caching/staleness problems
+4. Stabilize iOS mobile app
+5. Implement most-requested features
+
+Long-term Initiatives:
+1. Invest in infrastructure scaling for peak loads
+2. Enhance real-time data pipeline reliability
+3. Expand mobile development team
+4. Create feature voting system for transparency
+5. Build customer health scoring system
