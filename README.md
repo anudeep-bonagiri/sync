@@ -3,9 +3,9 @@
 > An adaptive AI that unifies T-Mobile's data, sentiment, and network health to sense, predict, and repair issues in real-time.
 
 ![Sync AI](https://img.shields.io/badge/Sync-AI-E20074?style=for-the-badge)
-![React](https://img.shields.io/badge/React-18.3.1-61DAFB?logo=react)
-![TypeScript](https://img.shields.io/badge/TypeScript-5.5.3-3178C6?logo=typescript)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.4.1-38B2AC?logo=tailwind-css)
+![React](https://img.shields.io/badge/React-19.2.0-61DAFB?logo=react)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.8.2-3178C6?logo=typescript)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.4.18-38B2AC?logo=tailwind-css)
 
 ## 🚀 Quick Start
 
@@ -19,8 +19,8 @@ npm run dev
 
 Then open: **http://localhost:3000**
 
-- Landing page: `http://localhost:3000/`
-- Dashboard: `http://localhost:3000/dashboard`
+- **Landing Page**: `http://localhost:3000/`
+- **Dashboard**: `http://localhost:3000/dashboard`
 
 > ⚠️ **Note**: The root `src/` folder is an old landing page. Use `Sync-1/frontend/` instead - it has everything unified with routing!
 
@@ -36,84 +36,209 @@ Sync AI is a self-healing network intelligence system that monitors live data st
 - **Autonomous Healing** - Self-healing network that fixes issues without human intervention
 - **Interactive Dashboard** - Beautiful, responsive interface with real-time visualizations
 - **Multi-Agent System** - Coordinated AI agents for sentiment analysis, technical detection, and simulation
+- **Agentic RAG System** - Intelligent context retrieval from knowledge store
+- **ReAct Workflows** - Reasoning and Acting loops for complex problem solving
 
 ## 🛠️ Tech Stack
 
 ### Frontend
-- **React 18** - UI framework
+- **React 19** - UI framework
 - **TypeScript** - Type safety
 - **Vite** - Build tool and dev server
 - **Tailwind CSS** - Styling
+- **Recharts** - Data visualization
+- **React Router** - Client-side routing
 - **Lucide React** - Icons
 
-### Backend/AI (from Devpost)
-- **NVIDIA Nemotron** - Multi-agent reasoning
-- **Brev** - GPU container deployment
-- **MCP** - Model coordination protocol
-- **ReAct** - Reasoning and action framework
-- **PostgreSQL** - Time-series data storage
+### Backend/AI
+- **Node.js + Express** - API server
+- **TypeScript** - Type safety
+- **Google Gemini** - LLM provider (with NVIDIA NIM support)
+- **Agentic RAG** - Intelligent knowledge retrieval
+- **ReAct Framework** - Reasoning and Acting workflows
+- **Multi-Agent System** - 8 specialized AI agents
 
 ## 🚀 Getting Started
 
 ### Prerequisites
 
-- Node.js 18+ and npm
+- **Node.js 18+** and npm
+- **Gemini API Key** (free from [Google AI Studio](https://makersuite.google.com/app/apikey))
 
 ### Installation
 
-1. Clone the repository
+1. **Clone the repository**
 ```bash
 git clone https://github.com/anudeep-bonagiri/sync.git
 cd sync
 ```
 
-2. Install dependencies
+2. **Install Frontend Dependencies**
 ```bash
+cd Sync-1/frontend
 npm install
 ```
 
-3. Start the development server
+3. **Install Backend Dependencies**
 ```bash
+cd ../backend
+npm install
+```
+
+4. **Configure Backend**
+
+Create `Sync-1/backend/.env`:
+```bash
+cd Sync-1/backend
+cp .env.example .env  # If .env.example exists, or create manually
+```
+
+Edit `.env` and add your Gemini API key:
+```env
+GEMINI_API_KEY=your_actual_api_key_here
+LLM_PROVIDER=gemini
+PORT=3001
+NODE_ENV=development
+```
+
+### Running the Application
+
+**Terminal 1 - Backend:**
+```bash
+cd Sync-1/backend
 npm run dev
 ```
 
-4. Open your browser
+Backend runs on `http://localhost:3001`
+
+**Terminal 2 - Frontend:**
+```bash
+cd Sync-1/frontend
+npm run dev
 ```
-http://localhost:5173
-```
+
+Frontend runs on `http://localhost:3000`
 
 ### Build for Production
 
+**Frontend:**
 ```bash
+cd Sync-1/frontend
 npm run build
 npm run preview
+```
+
+**Backend:**
+```bash
+cd Sync-1/backend
+npm run build
+npm start
 ```
 
 ## 📁 Project Structure
 
 ```
 sync/
-├── src/
-│   ├── components/
-│   │   ├── Hero.tsx              # Landing section with animated background
-│   │   ├── ConceptSection.tsx    # Four-step self-healing process
-│   │   ├── Dashboard.tsx         # Network metrics dashboard
-│   │   ├── WhySection.tsx        # Industry leader features
-│   │   ├── DemoFlow.tsx          # Interactive repair timeline
-│   │   ├── TechStack.tsx         # Technology visualization
-│   │   ├── CompetitiveAdvantage.tsx # Performance metrics
-│   │   ├── Team.tsx              # Team section
-│   │   └── Footer.tsx            # Footer with links
-│   ├── hooks/
-│   │   └── useScrollAnimation.ts # Scroll-triggered animations
-│   ├── assets/
-│   │   └── cat-icon.png          # Sync mascot icon
-│   ├── App.tsx                   # Main app component
-│   ├── main.tsx                   # Entry point
-│   └── index.css                 # Global styles
-├── public/
-├── package.json
-└── README.md
+├── Sync-1/                          # Main application directory
+│   ├── frontend/                    # React dashboard (Port 3000)
+│   │   ├── src/
+│   │   │   ├── components/
+│   │   │   │   ├── landing/        # Landing page components
+│   │   │   │   │   ├── Hero.tsx
+│   │   │   │   │   ├── ConceptSection.tsx
+│   │   │   │   │   ├── Dashboard.tsx
+│   │   │   │   │   ├── WhySection.tsx
+│   │   │   │   │   ├── DemoFlow.tsx
+│   │   │   │   │   ├── TechStack.tsx
+│   │   │   │   │   ├── CompetitiveAdvantage.tsx
+│   │   │   │   │   ├── Team.tsx
+│   │   │   │   │   └── Footer.tsx
+│   │   │   │   ├── DashboardPage.tsx      # Main dashboard
+│   │   │   │   ├── AISimulation.tsx       # Agent progress tracker
+│   │   │   │   ├── NetworkMap.tsx          # Interactive network map
+│   │   │   │   ├── LiveCustomerVoice.tsx  # Customer sentiment
+│   │   │   │   ├── ChurnLoyaltyBarChart.tsx # Analytics charts
+│   │   │   │   ├── HistoricalPerformanceChart.tsx
+│   │   │   │   ├── RepairRecommendations.tsx
+│   │   │   │   └── ...                    # Other components
+│   │   │   ├── hooks/
+│   │   │   │   ├── useMockData.ts          # State management
+│   │   │   │   └── useScrollAnimation.ts
+│   │   │   ├── services/
+│   │   │   │   └── apiClient.ts            # Backend API client
+│   │   │   ├── App.tsx                     # Root component with routing
+│   │   │   ├── index.tsx                   # Entry point
+│   │   │   ├── index.css                   # Global styles
+│   │   │   └── types.ts                    # TypeScript types
+│   │   ├── package.json
+│   │   ├── vite.config.ts
+│   │   └── tsconfig.json
+│   │
+│   ├── backend/                     # Express API server (Port 3001)
+│   │   ├── src/
+│   │   │   ├── agents/              # 8 AI agents
+│   │   │   │   ├── BaseAgent.ts
+│   │   │   │   ├── NetworkAnalysisAgent.ts    # Real LLM
+│   │   │   │   ├── SentimentAgent.ts          # Real LLM
+│   │   │   │   ├── CustomerAnalyticsAgent.ts  # LLM + RAG
+│   │   │   │   ├── SelfHealingAgent.ts
+│   │   │   │   ├── ResearchAgent.ts
+│   │   │   │   ├── OutlineAgent.ts
+│   │   │   │   ├── WriterAgent.ts
+│   │   │   │   └── EditorAgent.ts
+│   │   │   ├── llm/                 # LLM abstraction layer
+│   │   │   │   ├── llmClient.ts
+│   │   │   │   ├── geminiProvider.ts
+│   │   │   │   ├── nvidiaProvider.ts
+│   │   │   │   └── nemotronProvider.ts
+│   │   │   ├── rag/                 # RAG system
+│   │   │   │   ├── docs/            # Knowledge documents
+│   │   │   │   │   ├── network_outage_patterns.txt
+│   │   │   │   │   ├── customer_sentiment_logs.txt
+│   │   │   │   │   ├── device_telemetry.txt
+│   │   │   │   │   └── repair_outcomes.txt
+│   │   │   │   ├── data/            # JSON data files
+│   │   │   │   ├── ragSystem.ts
+│   │   │   │   └── embeddings.ts
+│   │   │   ├── workflows/
+│   │   │   │   └── reactWorkflow.ts # ReAct orchestrator
+│   │   │   ├── routes/              # API routes
+│   │   │   │   ├── analyzeRoutes.ts
+│   │   │   │   ├── analyticsRoutes.ts
+│   │   │   │   ├── ragRoutes.ts
+│   │   │   │   ├── selfHealRoutes.ts
+│   │   │   │   ├── regionRoutes.ts
+│   │   │   │   └── externalRoutes.ts
+│   │   │   ├── services/
+│   │   │   │   ├── twitterService.ts
+│   │   │   │   └── youtubeService.ts
+│   │   │   ├── types/
+│   │   │   │   └── index.ts
+│   │   │   └── server.ts            # Express server
+│   │   ├── package.json
+│   │   ├── tsconfig.json
+│   │   ├── README.md                # Backend setup guide
+│   │   └── ARCHITECTURE.md          # Architecture docs
+│   │
+│   ├── database/                    # Database schemas
+│   │   ├── schema.sql
+│   │   └── seed.sql
+│   │
+│   ├── "Sync Landing Page"/         # Standalone landing page
+│   │   └── ...                      # Landing page components
+│   │
+│   ├── README.md                     # Sync-1 documentation
+│   ├── STRUCTURE.md                  # Detailed structure guide
+│   ├── QUICKSTART.md                 # Quick start guide
+│   └── BACKEND_INTEGRATION.md        # Integration guide
+│
+├── src/                             # ⚠️ Old landing page (deprecated)
+│   └── ...                          # Use Sync-1/frontend instead
+│
+├── README.md                         # This file
+├── START_HERE.md                     # Quick start guide
+├── package.json                     # Root package.json
+└── .gitignore
 ```
 
 ## 🎨 Design Features
@@ -123,6 +248,87 @@ sync/
 - **Responsive Design** - Works seamlessly on all devices
 - **Interactive Elements** - Hover effects and animated visualizations
 - **Performance Optimized** - GPU-accelerated animations and efficient rendering
+
+## 🔗 API Endpoints
+
+### Network Analysis
+```bash
+POST http://localhost:3001/api/analyze/network
+{
+  "network_id": "us-east-1",
+  "includeRAG": true,
+  "focusRegion": "us-east-1"
+}
+```
+
+### Customer Analytics
+```bash
+POST http://localhost:3001/api/analytics/top
+{
+  "topK": 3
+}
+```
+
+### Self-Healing
+```bash
+POST http://localhost:3001/api/agents/self-heal
+{
+  "useRAG": true
+}
+```
+
+### RAG Context
+```bash
+POST http://localhost:3001/api/rag/context
+{
+  "query": "network outage patterns",
+  "topK": 3
+}
+```
+
+See `Sync-1/backend/README.md` for complete API documentation.
+
+## 🏗️ Architecture
+
+### Multi-Agent System
+
+**Real LLM Agents:**
+- **NetworkAnalysisAgent** - Dynamic network health analysis using Gemini
+- **SentimentAgent** - Customer sentiment scoring (0-100)
+- **CustomerAnalyticsAgent** - Combines RAG + LLM for insights
+
+**Simulated Agents:**
+- **SelfHealingAgent** - Automated remediation strategies
+- **ResearchAgent, OutlineAgent, WriterAgent, EditorAgent** - Content pipeline
+
+### Agentic RAG System
+
+- **Intelligent Retrieval** - Automatically decides when context is needed
+- **Knowledge Store** - Historical patterns, customer feedback, device metrics
+- **BM25-like Scoring** - Relevance-based document retrieval
+
+### ReAct Workflows
+
+**Reasoning → Acting Pattern:**
+```
+Query: "Analyze network and customer feedback"
+
+Step 1: Thought → Action → Observation
+  "Need network analysis" → NetworkAnalysisAgent → "Found issues"
+
+Step 2: Thought → Action → Observation
+  "Need customer insights" → CustomerAnalyticsAgent → "Got insights"
+
+Result: Complete multi-agent analysis
+```
+
+## 📚 Documentation
+
+- **Quick Start**: `START_HERE.md`
+- **Backend Setup**: `Sync-1/backend/README.md`
+- **Architecture**: `Sync-1/backend/ARCHITECTURE.md`
+- **Structure Guide**: `Sync-1/STRUCTURE.md`
+- **Integration**: `Sync-1/BACKEND_INTEGRATION.md`
 
 ## 🔗 Links
 
@@ -136,6 +342,23 @@ sync/
 - Created a simulation-driven self-healing network concept
 - Achieved full visibility into customer and system experience simultaneously
 - Integrated multiple real-time data streams into a unified dashboard
+- Implemented multi-agent AI with RAG and ReAct workflows
+
+## 🐛 Troubleshooting
+
+### Backend won't start
+- Check that `.env` file exists with `GEMINI_API_KEY`
+- Verify port 3001 is not in use: `lsof -ti:3001`
+- Ensure dependencies are installed: `cd Sync-1/backend && npm install`
+
+### Frontend can't reach backend
+- Ensure backend is running on `http://localhost:3001`
+- Check CORS is enabled (enabled by default in development)
+- Verify API URL in `Sync-1/frontend/src/services/apiClient.ts`
+
+### RAG not working
+- Verify documents exist: `ls Sync-1/backend/src/rag/docs/*.txt`
+- Restart backend after adding new documents
 
 ## 📝 License
 
