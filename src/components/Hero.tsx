@@ -158,7 +158,7 @@ export default function Hero() {
 
         <div className="flex flex-col sm:flex-row gap-3 md:gap-6 w-full sm:w-auto px-2 fade-in-delay-3">
           <a
-            href="https://www.youtube.com/watch?v=hfMk-kjRv4c"
+            href="https://www.youtube.com/watch?v=sskMo1zCaXM"
             target="_blank"
             rel="noopener noreferrer"
             className="group relative px-6 sm:px-10 py-3 md:py-5 bg-gradient-to-r from-[#E20074] to-[#7C4DFF] rounded-lg font-semibold text-sm md:text-lg overflow-hidden transition-all duration-300 ease-out hover:scale-105 hover:shadow-2xl hover:shadow-[#E20074]/50 whitespace-nowrap transform-gpu"
