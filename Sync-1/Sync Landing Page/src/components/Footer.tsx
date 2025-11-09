@@ -54,7 +54,7 @@ export default function Footer() {
             </a>
 
             <a
-              href="https://www.youtube.com/watch?v=hfMk-kjRv4c"
+              href="https://www.youtube.com/watch?v=sskMo1zCaXM"
               target="_blank"
               rel="noopener noreferrer"
               className="group flex items-center space-x-2 px-4 py-2 rounded-lg bg-gradient-to-r from-[#E20074] to-[#7C4DFF] hover:shadow-lg hover:shadow-[#E20074]/50 transition-all duration-300 ease-out hover:scale-105 transform-gpu"

@@ -332,7 +332,7 @@ Result: Complete multi-agent analysis
 
 ## 🔗 Links
 
-- **Live Demo**: [Watch on YouTube](https://www.youtube.com/watch?v=hfMk-kjRv4c)
+- **Live Demo**: [Watch on YouTube](https://www.youtube.com/watch?v=sskMo1zCaXM)
 - **Devpost**: [View Project](https://devpost.com/software/sync-ai-gltbhz?ref_content=user-portfolio&ref_feature=in_progress)
 - **Hackathon**: HackUTD 2025: Lost in the Pages
 
