@@ -1,44 +1,46 @@
 import { useState } from 'react';
 import { Eye, AlertTriangle, Cpu, Wrench } from 'lucide-react';
+import { useScrollAnimation } from '../hooks/useScrollAnimation';
 
 const steps = [
   {
     icon: Eye,
     title: 'Monitor',
     description: 'Real-time network surveillance across all nodes',
-    metrics: ['99.9% Coverage', '< 50ms Latency', '10K+ Nodes']
+    metrics: ['99.9% Coverage', '< 50ms Latency']
   },
   {
     icon: AlertTriangle,
     title: 'Detect',
     description: 'AI-powered anomaly detection and prediction',
-    metrics: ['95% Accuracy', '30s Detection', 'Zero False Positives']
+    metrics: ['95% Accuracy', '30s Detection']
   },
   {
     icon: Cpu,
     title: 'Simulate',
     description: 'GPU-accelerated virtual repair scenarios',
-    metrics: ['1000x Faster', 'Multi-Agent', 'Full Modeling']
+    metrics: ['1000x Faster', 'Multi-Agent']
   },
   {
     icon: Wrench,
     title: 'Repair',
     description: 'Autonomous deployment and network healing',
-    metrics: ['Auto-Deploy', '99% Success', 'Zero Downtime']
+    metrics: ['99% Success', 'Zero Downtime']
   }
 ];
 
 export default function ConceptSection() {
   const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
+  const { ref, isVisible } = useScrollAnimation();
 
   return (
-    <section className="relative py-20 md:py-32 px-4 sm:px-6 bg-[#0A0A0A] overflow-hidden">
+    <section ref={ref} className="relative py-20 md:py-32 px-4 sm:px-6 bg-[#0A0A0A] overflow-hidden">
       <div className="absolute inset-0">
         <div className="hidden md:block absolute top-1/2 left-0 w-full h-px bg-gradient-to-r from-transparent via-[#E20074] to-transparent opacity-30" />
       </div>
 
       <div className="max-w-7xl mx-auto relative z-10">
-        <div className="text-center mb-12 md:mb-20">
+        <div className={`text-center mb-12 md:mb-20 transition-all duration-700 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
           <h2 className="text-3xl sm:text-5xl md:text-6xl font-bold mb-4 md:mb-6 bg-gradient-to-r from-white to-[#E20074] bg-clip-text text-transparent">
             Self-Healing in Four Steps
           </h2>
@@ -73,15 +75,16 @@ export default function ConceptSection() {
                 )}
 
                 <div
-                  className={`relative p-4 md:p-8 rounded-xl md:rounded-2xl border transition-all duration-500 ${
+                  className={`relative p-4 md:p-8 rounded-xl md:rounded-2xl border transition-all duration-500 ease-out transform-gpu ${
                     isHovered
                       ? 'border-[#E20074] bg-gradient-to-br from-[#E20074]/20 to-[#7C4DFF]/10 md:scale-105 shadow-2xl shadow-[#E20074]/50'
                       : isActive
                       ? 'border-gray-800 bg-[#0A0A0A]/50 opacity-60'
                       : 'border-gray-800 bg-[#0A0A0A]/50 hover:border-gray-700'
-                  }`}
+                  } ${isVisible ? `opacity-100 translate-y-0 delay-${index * 100}` : 'opacity-0 translate-y-10'}`}
                   style={{
-                    transform: isHovered ? 'translateY(-10px)' : 'translateY(0)'
+                    transitionDelay: isVisible ? `${index * 100}ms` : '0ms',
+                    transform: isHovered ? 'translateY(-10px) scale(1.05)' : isVisible ? 'translateY(0) scale(1)' : 'translateY(30px) scale(0.95)'
                   }}
                 >
                   <div className="relative mb-4 md:mb-6">

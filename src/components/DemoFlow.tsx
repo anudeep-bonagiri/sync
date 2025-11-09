@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { AlertTriangle, CheckCircle2, Cpu, Radio, TrendingUp } from 'lucide-react';
+import { useScrollAnimation } from '../hooks/useScrollAnimation';
 
 const timeline = [
   {
@@ -51,15 +52,16 @@ const timeline = [
 
 export default function DemoFlow() {
   const [activeStep, setActiveStep] = useState(0);
+  const { ref, isVisible } = useScrollAnimation();
 
   return (
-    <section className="relative py-32 px-6 bg-gradient-to-b from-[#0F0515] to-[#0A0A0A] overflow-hidden">
+    <section ref={ref} className="relative py-32 px-6 bg-gradient-to-b from-[#0F0515] to-[#0A0A0A] overflow-hidden">
       <div className="absolute inset-0">
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-[#E20074] rounded-full blur-[150px] opacity-10" />
       </div>
 
       <div className="max-w-7xl mx-auto relative z-10">
-        <div className="text-center mb-20">
+        <div className={`text-center mb-20 transition-all duration-700 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
           <h2 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-white to-[#E20074] bg-clip-text text-transparent">
             Autonomous Repair in Action
           </h2>
@@ -89,7 +91,7 @@ export default function DemoFlow() {
                     className="group flex flex-col items-center"
                   >
                     <div
-                      className={`w-16 h-16 rounded-full flex items-center justify-center border-4 transition-all duration-300 ${
+                      className={`w-16 h-16 rounded-full flex items-center justify-center border-4 transition-all duration-300 ease-out transform-gpu ${
                         isActive
                           ? 'bg-gradient-to-br from-[#E20074] to-[#7C4DFF] border-[#E20074] scale-125 shadow-2xl shadow-[#E20074]/50'
                           : isPast
@@ -182,8 +184,6 @@ export default function DemoFlow() {
 
                   {Array.from({ length: 8 }).map((_, i) => {
                     const angle = (i / 8) * Math.PI * 2;
-                    const x = Math.cos(angle) * 100;
-                    const y = Math.sin(angle) * 100;
 
                     return (
                       <div

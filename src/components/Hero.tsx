@@ -1,9 +1,8 @@
 import { useEffect, useRef, useState } from 'react';
-import { Zap } from 'lucide-react';
+import catIcon from '../assets/cat-icon.png';
 
 export default function Hero() {
   const canvasRef = useRef<HTMLCanvasElement>(null);
-  const [mousePos, setMousePos] = useState({ x: 0, y: 0 });
   const [taglineIndex, setTaglineIndex] = useState(0);
 
   const tagline = "An AI that fixes the network before anyone notices it broke.";
@@ -24,11 +23,15 @@ export default function Hero() {
     const canvas = canvasRef.current;
     if (!canvas) return;
 
-    const ctx = canvas.getContext('2d');
+    const ctx = canvas.getContext('2d', { alpha: true });
     if (!ctx) return;
 
-    canvas.width = window.innerWidth;
-    canvas.height = window.innerHeight;
+    const setCanvasSize = () => {
+      canvas.width = window.innerWidth;
+      canvas.height = window.innerHeight;
+    };
+
+    setCanvasSize();
 
     const particles: Array<{
       x: number;
@@ -38,90 +41,90 @@ export default function Hero() {
       connections: number[];
     }> = [];
 
-    for (let i = 0; i < 80; i++) {
+    for (let i = 0; i < 60; i++) {
       particles.push({
         x: Math.random() * canvas.width,
         y: Math.random() * canvas.height,
-        vx: (Math.random() - 0.5) * 0.5,
-        vy: (Math.random() - 0.5) * 0.5,
+        vx: (Math.random() - 0.5) * 0.3,
+        vy: (Math.random() - 0.5) * 0.3,
         connections: []
       });
     }
 
     let animationId: number;
+    let lastTime = 0;
+    const targetFPS = 60;
+    const frameInterval = 1000 / targetFPS;
 
-    const animate = () => {
-      ctx.fillStyle = 'rgba(10, 10, 10, 0.1)';
-      ctx.fillRect(0, 0, canvas.width, canvas.height);
+    const animate = (currentTime: number) => {
+      const deltaTime = currentTime - lastTime;
 
-      particles.forEach((particle, i) => {
-        particle.x += particle.vx;
-        particle.y += particle.vy;
+      if (deltaTime >= frameInterval) {
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        ctx.fillStyle = 'rgba(10, 10, 10, 0.05)';
+        ctx.fillRect(0, 0, canvas.width, canvas.height);
 
-        const dx = mousePos.x - particle.x;
-        const dy = mousePos.y - particle.y;
-        const dist = Math.sqrt(dx * dx + dy * dy);
+        particles.forEach((particle, i) => {
+          particle.x += particle.vx;
+          particle.y += particle.vy;
 
-        if (dist < 150) {
-          particle.x += dx * 0.01;
-          particle.y += dy * 0.01;
-        }
+          if (particle.x < 0 || particle.x > canvas.width) particle.vx *= -1;
+          if (particle.y < 0 || particle.y > canvas.height) particle.vy *= -1;
 
-        if (particle.x < 0 || particle.x > canvas.width) particle.vx *= -1;
-        if (particle.y < 0 || particle.y > canvas.height) particle.vy *= -1;
+          const gradient = ctx.createRadialGradient(particle.x, particle.y, 0, particle.x, particle.y, 3);
+          gradient.addColorStop(0, '#E20074');
+          gradient.addColorStop(1, 'rgba(226, 0, 116, 0)');
 
-        const gradient = ctx.createRadialGradient(particle.x, particle.y, 0, particle.x, particle.y, 3);
-        gradient.addColorStop(0, '#E20074');
-        gradient.addColorStop(1, 'rgba(226, 0, 116, 0)');
+          ctx.fillStyle = gradient;
+          ctx.beginPath();
+          ctx.arc(particle.x, particle.y, 3, 0, Math.PI * 2);
+          ctx.fill();
 
-        ctx.fillStyle = gradient;
-        ctx.beginPath();
-        ctx.arc(particle.x, particle.y, 3, 0, Math.PI * 2);
-        ctx.fill();
+          particles.forEach((other, j) => {
+            if (i === j) return;
+            const dx = other.x - particle.x;
+            const dy = other.y - particle.y;
+            const dist = Math.sqrt(dx * dx + dy * dy);
 
-        particles.forEach((other, j) => {
-          if (i === j) return;
-          const dx = other.x - particle.x;
-          const dy = other.y - particle.y;
-          const dist = Math.sqrt(dx * dx + dy * dy);
-
-          if (dist < 100) {
-            const opacity = 1 - dist / 100;
-            ctx.strokeStyle = `rgba(226, 0, 116, ${opacity * 0.3})`;
-            ctx.lineWidth = 1;
-            ctx.beginPath();
-            ctx.moveTo(particle.x, particle.y);
-            ctx.lineTo(other.x, other.y);
-            ctx.stroke();
-          }
+            if (dist < 120) {
+              const opacity = 1 - dist / 120;
+              ctx.strokeStyle = `rgba(226, 0, 116, ${opacity * 0.2})`;
+              ctx.lineWidth = 0.5;
+              ctx.beginPath();
+              ctx.moveTo(particle.x, particle.y);
+              ctx.lineTo(other.x, other.y);
+              ctx.stroke();
+            }
+          });
         });
-      });
+
+        lastTime = currentTime - (deltaTime % frameInterval);
+      }
 
       animationId = requestAnimationFrame(animate);
     };
 
-    animate();
+    animationId = requestAnimationFrame(animate);
 
-    return () => cancelAnimationFrame(animationId);
-  }, [mousePos]);
+    const handleResize = () => {
+      setCanvasSize();
+      particles.forEach(particle => {
+        particle.x = Math.min(particle.x, canvas.width);
+        particle.y = Math.min(particle.y, canvas.height);
+      });
+    };
 
-  const handleMouseMove = (e: React.MouseEvent<HTMLDivElement>) => {
-    const rect = e.currentTarget.getBoundingClientRect();
-    setMousePos({
-      x: e.clientX - rect.left,
-      y: e.clientY - rect.top
-    });
-  };
+    window.addEventListener('resize', handleResize);
 
-  const handleMouseLeave = () => {
-    setMousePos({ x: window.innerWidth / 2, y: window.innerHeight / 2 });
-  };
+    return () => {
+      cancelAnimationFrame(animationId);
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
 
   return (
     <div
       className="relative h-screen overflow-hidden bg-[#0A0A0A]"
-      onMouseMove={handleMouseMove}
-      onMouseLeave={handleMouseLeave}
     >
       <canvas
         ref={canvasRef}
@@ -131,39 +134,50 @@ export default function Hero() {
       <div className="absolute inset-0 bg-gradient-to-br from-[#E20074]/10 via-transparent to-[#7C4DFF]/10 z-0" />
 
       <div className="relative z-10 h-full flex flex-col items-center justify-center px-4 sm:px-6 text-center">
-        <div className="mb-6 md:mb-8 relative">
-          <Zap className="w-16 h-16 md:w-20 md:h-20 text-[#E20074] animate-pulse" strokeWidth={1.5} />
-          <div className="absolute inset-0 blur-2xl bg-[#E20074] opacity-50" />
+        <div className="mb-6 md:mb-8 relative fade-in">
+          <div className="relative">
+            <img 
+              src={catIcon} 
+              alt="Sync Cat" 
+              className="w-24 h-24 md:w-28 md:h-28 lg:w-32 lg:h-32 relative z-10 drop-shadow-[0_0_20px_rgba(226,0,116,0.5)]" 
+            />
+            <div className="absolute inset-0 blur-2xl bg-[#E20074] opacity-50" />
+          </div>
         </div>
 
-        <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold mb-4 md:mb-6 bg-gradient-to-r from-white via-[#E20074] to-[#7C4DFF] bg-clip-text text-transparent leading-tight">
-          Adaptive Network<br className="hidden sm:block" />Repair Agent
+        <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold mb-4 md:mb-6 bg-gradient-to-r from-white via-[#E20074] to-[#7C4DFF] bg-clip-text text-transparent leading-tight fade-in-delay-1">
+          Sync
         </h1>
 
-        <div className="h-20 md:h-24 mb-8 md:mb-12">
+        <div className="h-20 md:h-24 mb-8 md:mb-12 fade-in-delay-2">
           <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-gray-300 font-light max-w-2xl sm:max-w-3xl lg:max-w-4xl leading-relaxed px-2">
             {words.slice(0, taglineIndex).join(' ')}
             {taglineIndex < words.length && <span className="animate-pulse">|</span>}
           </p>
         </div>
 
-        <div className="flex flex-col sm:flex-row gap-3 md:gap-6 w-full sm:w-auto px-2">
-          <button className="group relative px-6 sm:px-10 py-3 md:py-5 bg-gradient-to-r from-[#E20074] to-[#7C4DFF] rounded-lg font-semibold text-sm md:text-lg overflow-hidden transition-all hover:scale-105 hover:shadow-2xl hover:shadow-[#E20074]/50 whitespace-nowrap">
-            <div className="absolute inset-0 bg-gradient-to-r from-[#7C4DFF] to-[#E20074] opacity-0 group-hover:opacity-100 transition-opacity" />
+        <div className="flex flex-col sm:flex-row gap-3 md:gap-6 w-full sm:w-auto px-2 fade-in-delay-3">
+          <a
+            href="https://www.youtube.com/watch?v=hfMk-kjRv4c"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group relative px-6 sm:px-10 py-3 md:py-5 bg-gradient-to-r from-[#E20074] to-[#7C4DFF] rounded-lg font-semibold text-sm md:text-lg overflow-hidden transition-all duration-300 ease-out hover:scale-105 hover:shadow-2xl hover:shadow-[#E20074]/50 whitespace-nowrap transform-gpu"
+          >
+            <div className="absolute inset-0 bg-gradient-to-r from-[#7C4DFF] to-[#E20074] opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
             <span className="relative z-10">See the AI Repair Itself</span>
-          </button>
+          </a>
 
-          <button className="group relative px-6 sm:px-10 py-3 md:py-5 border-2 border-[#E20074] rounded-lg font-semibold text-sm md:text-lg overflow-hidden transition-all hover:scale-105 hover:shadow-2xl hover:shadow-[#E20074]/30 whitespace-nowrap">
-            <div className="absolute inset-0 bg-[#E20074] opacity-0 group-hover:opacity-100 transition-opacity" />
+          <a
+            href="https://devpost.com/software/sync-ai-gltbhz?ref_content=user-portfolio&ref_feature=in_progress"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group relative px-6 sm:px-10 py-3 md:py-5 border-2 border-[#E20074] rounded-lg font-semibold text-sm md:text-lg overflow-hidden transition-all duration-300 ease-out hover:scale-105 hover:shadow-2xl hover:shadow-[#E20074]/30 whitespace-nowrap transform-gpu"
+          >
+            <div className="absolute inset-0 bg-[#E20074] opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
             <span className="relative z-10">Watch Live Simulation</span>
-          </button>
+          </a>
         </div>
 
-        <div className="absolute bottom-10 left-1/2 -translate-x-1/2 animate-bounce">
-          <div className="w-6 h-10 border-2 border-[#E20074] rounded-full flex items-start justify-center p-2">
-            <div className="w-1 h-3 bg-[#E20074] rounded-full animate-pulse" />
-          </div>
-        </div>
       </div>
     </div>
   );

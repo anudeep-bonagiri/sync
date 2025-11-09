@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { Clock, Zap, TrendingUp, Shield } from 'lucide-react';
+import { useScrollAnimation } from '../hooks/useScrollAnimation';
 
 const metrics = [
   {
@@ -34,16 +35,17 @@ const metrics = [
 
 export default function CompetitiveAdvantage() {
   const [activeMode, setActiveMode] = useState<'traditional' | 'selfHealing'>('traditional');
+  const { ref, isVisible } = useScrollAnimation();
 
   return (
-    <section className="relative py-32 px-6 bg-gradient-to-b from-[#0A0A0A] to-[#0F0515] overflow-hidden">
+    <section ref={ref} className="relative py-32 px-6 bg-gradient-to-b from-[#0A0A0A] to-[#0F0515] overflow-hidden">
       <div className="absolute inset-0">
         <div className="absolute top-1/2 left-1/4 w-[600px] h-[600px] bg-[#7C4DFF] rounded-full blur-[150px] opacity-10" />
         <div className="absolute top-1/2 right-1/4 w-[600px] h-[600px] bg-[#E20074] rounded-full blur-[150px] opacity-10" />
       </div>
 
       <div className="max-w-7xl mx-auto relative z-10">
-        <div className="text-center mb-20">
+        <div className={`text-center mb-20 transition-all duration-700 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
           <h2 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-white to-[#E20074] bg-clip-text text-transparent">
             Revolutionary Performance
           </h2>
@@ -83,7 +85,6 @@ export default function CompetitiveAdvantage() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {metrics.map((metric, index) => {
             const Icon = metric.icon;
-            const displayValue = activeMode === 'traditional' ? metric.traditional : metric.selfHealing;
             const isBetter = activeMode === 'selfHealing';
 
             return (

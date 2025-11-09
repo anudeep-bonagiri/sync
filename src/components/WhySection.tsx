@@ -31,10 +31,6 @@ export default function WhySection() {
               {
                 title: 'GPU-Powered Simulations',
                 description: '1000x faster repair scenario modeling'
-              },
-              {
-                title: 'Real-Time Inference',
-                description: 'Sub-second anomaly detection and classification'
               }
             ]}
           />
@@ -51,10 +47,6 @@ export default function WhySection() {
               {
                 title: 'Zero Downtime',
                 description: 'Autonomous healing without service interruption'
-              },
-              {
-                title: 'Automated Optimization',
-                description: 'Continuous network performance improvement'
               }
             ]}
           />
