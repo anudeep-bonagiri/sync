@@ -168,7 +168,7 @@ export default function Hero() {
           </a>
 
           <a
-            href="https://devpost.com/software/sync-ai-gltbhz?ref_content=user-portfolio&ref_feature=in_progress"
+            href="https://devpost.com/software/sync-ai-gltbhz"
             target="_blank"
             rel="noopener noreferrer"
             className="group relative px-6 sm:px-10 py-3 md:py-5 border-2 border-[#E20074] rounded-lg font-semibold text-sm md:text-lg overflow-hidden transition-all duration-300 ease-out hover:scale-105 hover:shadow-2xl hover:shadow-[#E20074]/30 whitespace-nowrap transform-gpu"

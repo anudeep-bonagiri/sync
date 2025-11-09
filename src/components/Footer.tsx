@@ -44,7 +44,7 @@ export default function Footer() {
           {/* Right side - Links */}
           <div className="flex items-center gap-4">
             <a
-              href="https://devpost.com/software/sync-ai-gltbhz?ref_content=user-portfolio&ref_feature=in_progress"
+              href="https://devpost.com/software/sync-ai-gltbhz"
               target="_blank"
               rel="noopener noreferrer"
               className="group flex items-center space-x-2 px-4 py-2 rounded-lg border border-gray-800 hover:border-[#E20074] transition-all duration-300 ease-out hover:bg-[#E20074]/10 transform-gpu"
