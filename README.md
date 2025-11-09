@@ -46,7 +46,7 @@ Sync AI is a self-healing network intelligence system that monitors live data st
 
 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/sync.git
+git clone https://github.com/anudeep-bonagiri/sync.git
 cd sync
 ```
 
