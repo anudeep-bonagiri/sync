@@ -7,6 +7,23 @@
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.5.3-3178C6?logo=typescript)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.4.1-38B2AC?logo=tailwind-css)
 
+## 🚀 Quick Start
+
+**Use the unified app in `Sync-1/frontend/`:**
+
+```bash
+cd Sync-1/frontend
+npm install
+npm run dev
+```
+
+Then open: **http://localhost:3000**
+
+- Landing page: `http://localhost:3000/`
+- Dashboard: `http://localhost:3000/dashboard`
+
+> ⚠️ **Note**: The root `src/` folder is an old landing page. Use `Sync-1/frontend/` instead - it has everything unified with routing!
+
 ## 🎯 Overview
 
 Sync AI is a self-healing network intelligence system that monitors live data streams, detects anomalies, predicts issues, and autonomously repairs network problems through GPU-accelerated simulation. Built for HackUTD 2025, Sync combines NVIDIA's multi-agent reasoning with real-time network monitoring to create a breakthrough in autonomous network management.
